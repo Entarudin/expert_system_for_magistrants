@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="504pt" version="1.1" viewBox="0 0 504 504" width="504pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2021-07-19T22:40:26.644997</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.4.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 504 504 
+L 504 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 413.532 254.52 
+C 413.532 221.743314 403.150978 189.793815 383.885325 163.276919 
+C 364.619672 136.760022 337.441805 117.014146 306.269323 106.885594 
+C 275.096842 96.757041 241.503151 96.757042 210.33067 106.885596 
+C 179.158189 117.01415 151.980322 136.760027 132.714671 163.276924 
+L 258.3 254.52 
+L 413.532 254.52 
+z
+" style="fill:#004281;"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 132.714671 163.276924 
+C 118.316265 183.094631 108.811184 206.041929 104.979162 230.236374 
+C 101.14714 254.430819 103.095907 279.192227 110.665598 302.489337 
+C 118.23529 325.786447 131.213099 346.964302 148.53441 364.28561 
+C 165.855722 381.606919 187.033579 394.584723 210.330691 402.154411 
+L 258.3 254.52 
+L 132.714671 163.276924 
+z
+" style="fill:#006ca3;"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 210.330691 402.154411 
+C 233.627802 409.724098 258.389211 411.67286 282.583655 407.840833 
+C 306.778099 404.008807 329.725395 394.503721 349.543099 380.105312 
+C 369.360803 365.706903 385.491775 346.819956 396.612737 324.99383 
+C 407.733699 303.167704 413.532005 279.016002 413.532 254.519971 
+L 258.3 254.52 
+L 210.330691 402.154411 
+z
+" style="fill:#0098bc;"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <!-- 40.00% -->
+    <g style="fill:#ffffff;" transform="translate(257.576594 170.323106)scale(0.16 -0.16)">
+     <defs>
+      <path d="M 4141 1178 
+L 3245 1178 
+L 3245 0 
+L 2784 0 
+L 2784 1178 
+L 256 1178 
+L 256 1510 
+L 2630 4480 
+L 3142 4480 
+L 851 1587 
+L 2797 1587 
+L 2797 2624 
+L 3245 2624 
+L 3245 1587 
+L 4141 1587 
+L 4141 1178 
+z
+" id="Montserrat-Regular-34" transform="scale(0.015625)"/>
+      <path d="M 2118 -38 
+Q 1600 -38 1193 237 
+Q 787 512 560 1027 
+Q 333 1542 333 2240 
+Q 333 2938 560 3453 
+Q 787 3968 1193 4243 
+Q 1600 4518 2118 4518 
+Q 2637 4518 3043 4243 
+Q 3450 3968 3680 3453 
+Q 3910 2938 3910 2240 
+Q 3910 1542 3680 1027 
+Q 3450 512 3043 237 
+Q 2637 -38 2118 -38 
+z
+M 2118 384 
+Q 2509 384 2806 601 
+Q 3104 819 3270 1235 
+Q 3437 1651 3437 2240 
+Q 3437 2829 3270 3245 
+Q 3104 3661 2806 3878 
+Q 2509 4096 2118 4096 
+Q 1728 4096 1430 3878 
+Q 1133 3661 966 3245 
+Q 800 2829 800 2240 
+Q 800 1651 966 1235 
+Q 1133 819 1430 601 
+Q 1728 384 2118 384 
+z
+" id="Montserrat-Regular-30" transform="scale(0.015625)"/>
+      <path d="M 678 -32 
+Q 538 -32 438 70 
+Q 339 173 339 320 
+Q 339 467 438 566 
+Q 538 666 678 666 
+Q 819 666 921 566 
+Q 1024 467 1024 320 
+Q 1024 173 921 70 
+Q 819 -32 678 -32 
+z
+" id="Montserrat-Regular-2e" transform="scale(0.015625)"/>
+      <path d="M 1280 2080 
+Q 826 2080 547 2416 
+Q 269 2752 269 3296 
+Q 269 3840 547 4176 
+Q 826 4512 1280 4512 
+Q 1728 4512 2009 4179 
+Q 2291 3846 2291 3296 
+Q 2291 2746 2009 2413 
+Q 1728 2080 1280 2080 
+z
+M 3994 4480 
+L 4371 4480 
+L 1312 0 
+L 934 0 
+L 3994 4480 
+z
+M 1280 2368 
+Q 1594 2368 1782 2614 
+Q 1971 2861 1971 3296 
+Q 1971 3731 1782 3977 
+Q 1594 4224 1280 4224 
+Q 960 4224 774 3974 
+Q 589 3725 589 3296 
+Q 589 2867 774 2617 
+Q 960 2368 1280 2368 
+z
+M 4026 -32 
+Q 3578 -32 3296 304 
+Q 3014 640 3014 1184 
+Q 3014 1728 3296 2064 
+Q 3578 2400 4026 2400 
+Q 4480 2400 4758 2064 
+Q 5037 1728 5037 1184 
+Q 5037 640 4758 304 
+Q 4480 -32 4026 -32 
+z
+M 4026 256 
+Q 4346 256 4531 505 
+Q 4717 755 4717 1184 
+Q 4717 1613 4531 1862 
+Q 4346 2112 4026 2112 
+Q 3712 2112 3523 1865 
+Q 3334 1619 3334 1184 
+Q 3334 749 3523 502 
+Q 3712 256 4026 256 
+z
+" id="Montserrat-Regular-25" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Montserrat-Regular-34"/>
+     <use x="66.099991" xlink:href="#Montserrat-Regular-30"/>
+     <use x="132.299988" xlink:href="#Montserrat-Regular-2e"/>
+     <use x="153.499985" xlink:href="#Montserrat-Regular-30"/>
+     <use x="219.699982" xlink:href="#Montserrat-Regular-30"/>
+     <use x="285.899979" xlink:href="#Montserrat-Regular-25"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 30.00% -->
+    <g style="fill:#ffffff;" transform="translate(140.989359 287.685352)scale(0.16 -0.16)">
+     <defs>
+      <path d="M 1856 2560 
+Q 2560 2522 2928 2179 
+Q 3296 1837 3296 1286 
+Q 3296 902 3110 604 
+Q 2925 307 2560 134 
+Q 2195 -38 1670 -38 
+Q 1184 -38 752 118 
+Q 320 275 58 538 
+L 282 902 
+Q 506 672 877 528 
+Q 1248 384 1670 384 
+Q 2221 384 2521 624 
+Q 2822 864 2822 1286 
+Q 2822 1702 2521 1939 
+Q 2221 2176 1613 2176 
+L 1293 2176 
+L 1293 2515 
+L 2534 4070 
+L 243 4070 
+L 243 4480 
+L 3123 4480 
+L 3123 4154 
+L 1856 2560 
+z
+" id="Montserrat-Regular-33" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Montserrat-Regular-33"/>
+     <use x="56.399994" xlink:href="#Montserrat-Regular-30"/>
+     <use x="122.599991" xlink:href="#Montserrat-Regular-2e"/>
+     <use x="143.799988" xlink:href="#Montserrat-Regular-30"/>
+     <use x="209.999985" xlink:href="#Montserrat-Regular-30"/>
+     <use x="276.199982" xlink:href="#Montserrat-Regular-25"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- 30.00% -->
+    <g style="fill:#ffffff;" transform="translate(284.315859 334.254937)scale(0.16 -0.16)">
+     <use xlink:href="#Montserrat-Regular-33"/>
+     <use x="56.399994" xlink:href="#Montserrat-Regular-30"/>
+     <use x="122.599991" xlink:href="#Montserrat-Regular-2e"/>
+     <use x="143.799988" xlink:href="#Montserrat-Regular-30"/>
+     <use x="209.999985" xlink:href="#Montserrat-Regular-30"/>
+     <use x="276.199982" xlink:href="#Montserrat-Regular-25"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
