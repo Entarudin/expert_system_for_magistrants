@@ -16,7 +16,7 @@ class UserPages extends React.Component {
         this.state = {
           user:{},
           resultOnUserPage: [],
-          resultDb: ""
+          resultDb: 1
 
         };
        
@@ -27,11 +27,10 @@ class UserPages extends React.Component {
         console.log(data)
         this.setState({ user: data })
         this.getResultfromLocalStorage();
-        console.log(localStorage.getItem("result"))
         Boolean(localStorage.getItem('id')) && Boolean(!localStorage.getItem('result')) && this.getResultOnDataBase()
-        
+        this.forceUpdate()
         Boolean(localStorage.getItem('id')) && Boolean(localStorage.getItem('result')) && this.requestResult()
-    
+        this.setState({resultDb:3})
     }
 
     getResultfromLocalStorage = async () => {
@@ -68,9 +67,9 @@ class UserPages extends React.Component {
             const responseGetResult = await fetch('http://localhost:5000/auth/users/get_result', requestOptionsGetResult);
             const dataResult = await responseGetResult.json();
             
-            this.setState({resultDb:dataResult.result})
+            this.setState({resultDb:2})
             console.log(this.state.resultDb)
-            localStorage.setItem("result",this.state.resultDb)
+            localStorage.setItem("result",dataResult.result)
 
         }catch(e){
             console.log("fff")
@@ -92,7 +91,6 @@ class UserPages extends React.Component {
             };
             const responseResult = await fetch('http://localhost:5000/auth/users/result', requestOptions);
             const dataResult = await responseResult.json();
-            console.log(dataResult)
         }catch(e){
 
         }
@@ -108,14 +106,6 @@ class UserPages extends React.Component {
                     <Redirect to={`/auth/login`}/>
                 )}
 
-                {/* {
-                    !localStorage.getItem('result') && localStorage.setItem("result",this.state.resultDb)
-                }
-               */}
-
-                {/* {
-                    Boolean(localStorage.getItem('id')) && Boolean(localStorage.getItem('result')) && this.requestResult
-                } */}
                 <div className="mainUser">
                     <p>Username is {username } </p>
                  

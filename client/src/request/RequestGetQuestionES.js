@@ -1,6 +1,9 @@
 import React from 'react';
 import qs from 'qs';
 import '../App.css'
+import {
+    Redirect,
+  } from "react-router-dom";
 
 class RequestGetQuestionES extends React.Component {
     constructor(props) {
@@ -22,7 +25,7 @@ class RequestGetQuestionES extends React.Component {
             this.onChangeItem = this.onChangeItem.bind(this)
     }
 
-    
+   
     handleChangeRadio(event) {
         this.setState({radio: event.target.value});
       }
@@ -83,7 +86,7 @@ class RequestGetQuestionES extends React.Component {
 
     render() {
         const { totalReactPackages,value, answers, resultArray , step, topThreeAndImg} = this.state;
-        const{handleChange, handleSubmit} =this
+        const userId = localStorage.getItem("id")
         const countOfQuestions = 15;
         return (
             <div className="card text-center m-3">
@@ -159,7 +162,7 @@ class RequestGetQuestionES extends React.Component {
                 )}
                 {step === 1 && (  <button onClick={this.handleSubmitFirst}>Отправить 1 шаг</button>)}
                         {step === 2 && (  <button onClick ={this.handleSubmitSecond}>Отправить 2 шаг</button>)}
-                        {step === 3 && (  <button >Отправить 3 шаг</button>)}
+                        {step === 3 && (  <button onClick>Отправить 3 шаг</button>) }
                         <div>
 
 

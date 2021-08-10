@@ -23,3 +23,8 @@
 .App-link {
   color: #61dafb;
 }
+
+input{
+  display: block;
+  margin-top: 20px;
+}

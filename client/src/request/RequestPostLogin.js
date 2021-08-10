@@ -3,7 +3,7 @@ import jwt_decode from "jwt-decode";
 import {
     Redirect,
   } from "react-router-dom";
-import  secret  from '../config';
+
 
 class RequestPostLogin extends React.Component {
     constructor(props) {
@@ -17,6 +17,7 @@ class RequestPostLogin extends React.Component {
         this.handleChangePassword=this.handleChangePassword.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         this.funcPost = this.funcPost.bind(this)
+    
     }
 handleChangeUsername(event){
     this.setState({

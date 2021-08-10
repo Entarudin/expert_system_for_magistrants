@@ -15,12 +15,19 @@ class PostRequestRegistration extends React.Component {
             speciality:"",
             dateofbirth:"",
             phonenumber:"",
-            returnPassword:""  
+            returnPassword:"",
+            fullname:""  
         };
         this.handleChangeUsername = this.handleChangeUsername.bind(this)
         this.handleChangePassword=this.handleChangePassword.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         this.funcPost = this.funcPost.bind(this)
+        this.handleChangeFullname=this.handleChangeFullname.bind(this)
+        this.handleChangePrevUniversity=this.handleChangePrevUniversity.bind(this)
+        this.handleChangeSpeciality=this.handleChangeSpeciality.bind(this)
+        this.handleChangeDateOfBirthday= this.handleChangeDateOfBirthday.bind(this)
+        this.handleChangePhoneNumber= this.handleChangePhoneNumber.bind(this)
+        this.handleChangeReturnPassword = this.handleChangeReturnPassword.bind(this)
     }
 handleChangeUsername(event){
     this.setState({
@@ -33,14 +40,64 @@ handleChangePassword(event){
     })
 }
 
+handleChangeFullname(event){
+    this.setState({
+        fullname : event.target.value
+    })
+}
+
+handleChangePrevUniversity(event){
+    this.setState({
+        prevuniversity : event.target.value
+    })
+
+}
+    handleChangeSpeciality(event){
+        this.setState({
+            speciality : event.target.value
+        })
+    }
+
+    handleChangeDateOfBirthday(event){
+        this.setState({
+            dateofbirth : event.target.value
+        })
+    }
+
+    handleChangePhoneNumber(event){
+        this.setState({
+            phonenumber : event.target.value
+        })
+    }
+    handleChangeReturnPassword(event){
+        this.setState({
+            returnPassword : event.target.value
+        })
+    }
+
+
+
+
 
 handleSubmit(event){
     try{
         if(!validator.isEmail(this.state.username))  throw new Error ("Введите адрес электронной почты в формате proverka@example.com");
         if(!isLength(this.state.password , {min:4, max:12})) throw new Error("Пароль должен быть больше 4  и меньше 12 символов")
-       
-     let USER = {
+        if(!validator.isLength(this.state.prevuniversity, {min:4, max:12})) throw new Error ("Поле предыдущего учебного заведения должно быть больше 3")
+        if(!validator.isLength(this.state.speciality,{min:3})) throw new Error ("Поле специальности должно быть больше 3")
+        if(!validator.isDate(this.state.dateofbirth)) throw new Error ("Неверно введена дата рождения, введите в формате [2002-07-15]")
+        if (!validator.isMobilePhone(this.state.phonenumber)) throw new Error ("Неверно введен номер телефона")
+        if(!isLength(this.state.fullname, {min:3})) throw new Error("ФИО должно быть больше 3")
+        if (!(this.state.password === this.state.returnPassword)) throw new Error("Пароли не совпадают")
+        
+        let USER = {
+
         username:this.state.username,
+        fullname:this.state.fullname,
+        prevuniversity:this.state.prevuniversity,
+        speciality:this.state.speciality,
+        dateofbirth:this.state.dateofbirth,
+        phonenumber:this.state.phonenumber,
         password: this.state.password
     }
    this.funcPost(USER)    
@@ -73,44 +130,68 @@ handleSubmit(event){
                 <h5 className="card-header">Registration</h5>
                 <div className="card-body">
                 <form onSubmit={this.handleSubmit}>
-                    {/*<label>
-                  ФИО:
-                 // <input  type ="text" name="name" value ={this.state.value} onChange={}/>
-              </label>
-              <label>
-                  Предыдущее учебное заведение:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={}/>
-              </label>
-              <label>
-                  Специальность:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={}/>
-              </label>
-              <label>
-                  Дата рождения:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={}/>
-              </label>
-              <label>
-                  Номер телефона:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={}/>
-              </label>
+                 
+                 <input  type ="text" 
+                 name="name" 
+                 value ={this.state.value} 
+                 onChange={this.handleChangeFullname}
+                 placeholder="ФИО"
+                 />
 
+                <input  type ="text" 
+                 name="name" 
+                 value ={this.state.value} 
+                 onChange={this.handleChangePrevUniversity}
+                 placeholder="Предыдущее учебное заведение"
+                 />
 
+                <input  type ="text" 
+                 name="name" 
+                 value ={this.state.value} 
+                 onChange={this.handleChangeSpeciality}
+                 placeholder="Специальность"
+                 />
 
-                 */}
-                <label>
-                  Электронная почта :
-                  <input  type ="text" name="name" value ={this.state.value} onChange={this.handleChangeUsername}/>
-              </label>
-              <label>
-              Пароль:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={this.handleChangePassword}/>
+                <input  type ="text" 
+                 name="name" 
+                 value ={this.state.value} 
+                 onChange={this.handleChangeDateOfBirthday}
+                 placeholder="Дата рождения"
+                 />
 
-              </label>
-              <label>
-              Повторите пароль:
-                  <input  type ="text" name="name" value ={this.state.value} />
+                <input  type ="text" 
+                 name="name" 
+                 value ={this.state.value} 
+                 onChange={this.handleChangePhoneNumber}
+                 placeholder="Номер телефона"
+                 />
 
-              </label>
+               
+                  <input  type ="text"
+                   name="name" 
+                   value ={this.state.value} 
+                   onChange={this.handleChangeUsername}
+                   placeholder ="Электронная почта"
+                   />
+       
+                  <input  type ="text"
+                   name="name"
+                    value ={this.state.value}
+                     onChange={this.handleChangePassword}
+                     placeholder="Пароль"
+                     />
+
+             
+                  <input 
+                   type ="text" 
+                   name="name" 
+                   value ={this.state.value} 
+                   onChange={this.handleChangeReturnPassword}
+                   placeholder="Повторите пароль"
+
+                   />
+
+             
               <input type ="submit" value = "Отправить"/>
     
                 </form>
