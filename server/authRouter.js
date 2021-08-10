@@ -18,4 +18,6 @@ router.post("/login", controller.login )
 router.get("/users",roleMiddleware(["ADMIN"]),  controller.getUsers)
 router.get("/users/:id", controller.getUser)
 router.put("/users/update", controller.updateUser)
+router.post("/users/result", controller.saveResult)
+router.post("/users/get_result", controller.getResult)
 module.exports = router

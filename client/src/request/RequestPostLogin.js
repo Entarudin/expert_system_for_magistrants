@@ -38,6 +38,7 @@ handleSubmit(event){
     event.preventDefault()
 }
 
+
     async funcPost(USER) {
         // POST request using fetch with async/await
          
@@ -52,7 +53,7 @@ handleSubmit(event){
         try {
         let token = data.token
         let {id, roles} = jwt_decode(token)
-        // console.log( decoded )
+        
         localStorage.setItem('id', id);
         localStorage.setItem('token', token);
         // console.log(id)

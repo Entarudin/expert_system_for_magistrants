@@ -57,7 +57,7 @@ class RequestGetQuestionES extends React.Component {
                 let checkLocalstorage = JSON.parse(localStorage.getItem("result")) ;
                 if (checkLocalstorage && checkLocalstorage.length)
                 { 
-                    localStorage.setItem("result", JSON.stringify([...checkLocalstorage,this.state.result]))
+                    localStorage.setItem("result", JSON.stringify([...checkLocalstorage,...this.state.result]))
                 }else{
                   localStorage.setItem("result" , JSON.stringify(this.state.result))  
                 }

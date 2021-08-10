@@ -4,6 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken")
 const {secret} = require("./config")
 const {validationResult} = require("express-validator");
+const Result = require("./models/Result")
 
 const generationAccessToken =(id,roles) =>{
     const paylod = {
@@ -103,7 +104,6 @@ class authController{
         
         const newhashPassword = bcrypt.hashSync(newpassword, 7);
         const userUpdate = await User.findOneAndUpdate({_id:req.body.id},{password:newhashPassword},{new:true})
-            // prevuniversity,speciality,dateofbirth,phonenumber,
             res.json({message: "Пользователь упешно сменил пароль"})
         } catch(e){
             console.log(e)
@@ -111,7 +111,36 @@ class authController{
         }
 
     }
+    async saveResult(req,res){
+        try {
+            const {idUser,result} = req.body;
+            const candidateOnResult = await Result.findOne({idUser})
+            if(!candidateOnResult){
+                const UserResult = new Result({idUser,result})
+                await UserResult.save()  
+               return res.json({message: "save new user"})
+            }else{
+            const userUpdateResult = await Result.findOneAndUpdate(idUser,{result:req.body.result},{new:true})
+               return res.json(userUpdateResult)
+            }
+          
+        } catch(e){
+           console.log(e) 
+        }
 
+    }
+
+    async getResult(req,res){
+        try {
+            const {idUser} = req.body
+           const resultTest = await Result.findOne({idUser})
+           res.json({result:resultTest.result})
+          
+        } catch(e){
+           console.log(e) 
+        }
+
+    }
 
 }
 module.exports = new authController()

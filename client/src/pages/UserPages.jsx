@@ -15,19 +15,23 @@ class UserPages extends React.Component {
 
         this.state = {
           user:{},
-          resultOnUserPage: []
+          resultOnUserPage: [],
+          resultDb: ""
 
         };
        
     }
     async componentDidMount() {
-        // GET request using fetch with async/await
         const response = await fetch(`http://localhost:5000/auth/users/${localStorage.getItem('id')}`);
         const data = await response.json();
         console.log(data)
         this.setState({ user: data })
         this.getResultfromLocalStorage();
         console.log(localStorage.getItem("result"))
+        Boolean(localStorage.getItem('id')) && Boolean(!localStorage.getItem('result')) && this.getResultOnDataBase()
+        
+        Boolean(localStorage.getItem('id')) && Boolean(localStorage.getItem('result')) && this.requestResult()
+    
     }
 
     getResultfromLocalStorage = async () => {
@@ -42,11 +46,56 @@ class UserPages extends React.Component {
     logout = () => {
         localStorage.setItem('id', '');
         localStorage.setItem('token', '');
+        localStorage.setItem('result', '');
         this.forceUpdate()
     }
 
     testOnEs =() =>{
         this.props.history.push('/test')
+    }
+
+    getResultOnDataBase = async () =>{
+        try{
+            const idOnlocalstorage= localStorage.getItem('id')
+                let userGetResult = {
+                    idUser:idOnlocalstorage
+                }
+            const requestOptionsGetResult = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(userGetResult)
+            };
+            const responseGetResult = await fetch('http://localhost:5000/auth/users/get_result', requestOptionsGetResult);
+            const dataResult = await responseGetResult.json();
+            
+            this.setState({resultDb:dataResult.result})
+            console.log(this.state.resultDb)
+            localStorage.setItem("result",this.state.resultDb)
+
+        }catch(e){
+            console.log("fff")
+        }
+    }
+
+    requestResult = async() => {
+        try{
+            const reqResLocalstorageOnid = localStorage.getItem('id')
+            const reqResLocalstorageOnResult = localStorage.getItem('result')
+                let userResult = {
+                    idUser:reqResLocalstorageOnid,
+                    result:reqResLocalstorageOnResult
+                }
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(userResult)
+            };
+            const responseResult = await fetch('http://localhost:5000/auth/users/result', requestOptions);
+            const dataResult = await responseResult.json();
+            console.log(dataResult)
+        }catch(e){
+
+        }
     }
 
     render() {
@@ -56,8 +105,17 @@ class UserPages extends React.Component {
         return (
             <> 
                 {!localStorage.getItem('id') && (
-                    <Redirect to={`/`}/>
+                    <Redirect to={`/auth/login`}/>
                 )}
+
+                {/* {
+                    !localStorage.getItem('result') && localStorage.setItem("result",this.state.resultDb)
+                }
+               */}
+
+                {/* {
+                    Boolean(localStorage.getItem('id')) && Boolean(localStorage.getItem('result')) && this.requestResult
+                } */}
                 <div className="mainUser">
                     <p>Username is {username } </p>
                  

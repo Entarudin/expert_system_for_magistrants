@@ -19,7 +19,8 @@ app.use("/auth",authRouter);
 
 const start = async () =>{
     try{
-        await mongoose.connect("mongodb+srv://qwerty:Maksim228228@cluster0.1nl3j.mongodb.net/auth?retryWrites=true&w=majority")
+        await mongoose.connect("mongodb+srv://qwerty:Maksim228228@cluster0.1nl3j.mongodb.net/auth?retryWrites=true&w=majority", { useNewUrlParser: true },  { useFindAndModify: false })
+        await mongoose.set('useNewUrlParser', true);
         app.listen(PORT,() => console.log(`server started on port ${PORT}`))
     }
         catch(e){
