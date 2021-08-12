@@ -45,7 +45,7 @@ class UserPages extends React.Component {
     logout = () => {
         localStorage.setItem('id', '');
         localStorage.setItem('token', '');
-        localStorage.setItem('result', '');
+        localStorage.removeItem('result')
         this.forceUpdate()
     }
 
@@ -69,7 +69,10 @@ class UserPages extends React.Component {
             
             this.setState({resultDb:2})
             console.log(this.state.resultDb)
-            localStorage.setItem("result",dataResult.result)
+            if(dataResult.result.length){
+                 localStorage.setItem("result",dataResult.result)
+            }
+           
 
         }catch(e){
             console.log("fff")
@@ -97,7 +100,7 @@ class UserPages extends React.Component {
     }
 
     render() {
-        const{username} = this.state.user
+        const{username, fullname,dateofbirth,phonenumber,prevuniversity,speciality} = this.state.user
         localStorage.getItem('res')
     
         return (
@@ -107,7 +110,13 @@ class UserPages extends React.Component {
                 )}
 
                 <div className="mainUser">
-                    <p>Username is {username } </p>
+                    <p>ФИО: {fullname}</p>
+                    <p>Дата рождения: {dateofbirth}</p>
+                    <p>Номер: {phonenumber}</p>
+                    <p>Почта: {username } </p>
+                    <p>Предыдущее учебное заведение: {prevuniversity}</p>
+                    <p>Полученная специальность: {speciality}</p>
+
                  
                     <button  onClick={this.logout}>logout</button>
                     <button onClick={this.testOnEs}> Пройти еще раз </button>

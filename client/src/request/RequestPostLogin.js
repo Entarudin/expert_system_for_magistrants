@@ -76,18 +76,25 @@ handleSubmit(event){
                 {localStorage.getItem('id') && (
                     <Redirect to={`/users/${userId}`}/>
                 )}
-                <h5 className="card-header">POST Request with Async/Await</h5>
+                <h5 className="card-header">Вход в систему</h5>
                 <div className="card-body">
                 <form onSubmit={this.handleSubmit}>
-                <label>
-                  Имя :
-                  <input  type ="text" name="name" value ={this.state.value} onChange={this.handleChangeUsername}/>
-              </label>
-              <label>
-              Пароль:
-                  <input  type ="text" name="name" value ={this.state.value} onChange={this.handleChangePassword}/>
+                
+                  <input  type ="text" 
+                  name="name" 
+                  value ={this.state.value}
+                   onChange={this.handleChangeUsername}
+                   placeholder="Имя"
+                   />
+         
+                  <input  type ="text"
+                   name="name"
+                    value ={this.state.value}
+                     onChange={this.handleChangePassword}
+                     placeholder="Пароль"
+                     />
 
-              </label>
+ 
               <input type ="submit" value = "Отправить"/>
     
                 </form>

@@ -94,7 +94,7 @@ class authController{
         }
 
     }
-    async updateUser(req,res){
+    async updateUserPassword(req,res){
         try {
         const {username,newpassword,id} = req.body;
         const user = await User.findOne({username})
@@ -109,7 +109,6 @@ class authController{
             console.log(e)
             res.status(400).json({message: "updateUser error" })
         }
-
     }
     async saveResult(req,res){
         try {
@@ -141,6 +140,24 @@ class authController{
         }
 
     }
+
+    async updateUser(req,res){
+        try {
+        const {username,id} = req.body;
+        /*username: user.username,fullname:user.fullname, prevuniversity:user.prevuniversity,speciality:user.speciality,dateofbirth:user.dateofbirth, phonenumber:user.phonenumber */
+      
+        const userUpdateOnDate = await User.findOneAndUpdate({_id:req.body.id},
+            {username:req.body.username, fullname:req.body.fullname, prevuniversity:req.body.prevuniversity,
+            speciality:req.body.speciality,dateofbirth:req.body.dateofbirth,phonenumber:req.body.phonenumber
+            },
+            {new:true})
+            res.json({message: "Пользователь упешно изменил данные"})
+        } catch(e){
+            console.log(e)
+            res.status(400).json({message: "updateUser error" })
+        }
+    }
+
 
 }
 module.exports = new authController()
