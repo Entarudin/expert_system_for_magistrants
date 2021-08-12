@@ -3,6 +3,7 @@ import './App.css';
 import {RequestPostLogin} from './request/RequestPostLogin'
 import {PostRequestRegistration} from './request/RequestPostReqistration'
 import { UpdateDateUser } from './request/UpdateDateUser';
+import { UpdatePassword } from './request/UpdatePassword';
 import UserPages from './pages/UserPages';
 import TestPages from './pages/Test';
 import {
@@ -26,6 +27,11 @@ function App() {
       <Route exact path="/users/updatedate">
         <UpdateDateUser />
       </Route>
+
+      <Route exact path="/users/updatepassword">
+        <UpdatePassword />
+      </Route>
+
 
 
 

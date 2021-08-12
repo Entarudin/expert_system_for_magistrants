@@ -97,13 +97,8 @@ class authController{
     async updateUserPassword(req,res){
         try {
         const {username,newpassword,id} = req.body;
-        const user = await User.findOne({username})
-            if(!user){
-                return res.status(400).json({message: `Пользователь ${username} не найден`})
-            }
-        
         const newhashPassword = bcrypt.hashSync(newpassword, 7);
-        const userUpdate = await User.findOneAndUpdate({_id:req.body.id},{password:newhashPassword},{new:true})
+        const userUpdatePassword = await User.findOneAndUpdate({_id:req.body.id},{password:newhashPassword},{new:true})
             res.json({message: "Пользователь упешно сменил пароль"})
         } catch(e){
             console.log(e)
