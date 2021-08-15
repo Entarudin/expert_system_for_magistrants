@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.mainUser{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    gap: 106px;
+
+}
+
+.first_block{
+    margin-left: 137px;
+}
+
+
+.block_positioin_result_img{
+  display: flex;
+   }
+ 
+.user_info{
+width: 391px;
+height: 730px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+}
+
+.label_on_userpage{
+    height: 50px;
+    width: 182px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin-left: 172px;
+}
+.img_small{
+    width: 197px;
+    height: 169px;
+
+  }
+
+  .img_and_fio{
+    display: flex;
+    padding-left: 22px;
+    padding-top: 28px;
+  }
+  .img_photouser{
+
+  }
+
+  .p_inf{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left:30px;
+    color: #000000;
+    width: 322px;
+  }
+
+  .btn_main_pages{
+    width: 308px;
+    height: 57px;
+    background: #00304B;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 42px;
+    margin-bottom:23px ;
+    color: #E5E5E5;
+    cursor: pointer;
+
+  }
+  .btn_main_pages:hover{
+    background-color:#006ca3;
+  }
+
+
+  .p_fio{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 39px;
+    color: #000000;
+    width: 50px;
+    
+  }
+.my_result{
+    width: 348px;
+    height: 50px;
+margin-left: 300px;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+margin-top: 40px;
+margin-bottom: 40px;
+color: #000000;
+
+}
+
+.items_on_result{
+    width: 664px;
+height: 97%;
+padding-top: 28px;
+padding-left:28px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.item_result_answer_on_result{
+width: 391px;
+padding-top: 7px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.btn_again{
+    width: 413px;
+height: 88px;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+cursor: pointer;
+color: #E5E5E5;
+
+margin-left:100px;
+margin-top: 70px;
+background: #00304B;
+border-radius: 20px;
+}
+.btn_again:hover{
+    background-color:#006ca3;
+}

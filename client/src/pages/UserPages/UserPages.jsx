@@ -7,8 +7,9 @@ import {
     Redirect,
     withRouter,
   } from "react-router-dom";
-import '../../App.css'
 
+import './styles.css'
+import photouser from '../../assets/img/img_userpages.png'
 class UserPages extends React.Component {
     constructor(props) {
         super(props);
@@ -111,33 +112,61 @@ class UserPages extends React.Component {
                 )}
 
                 <div className="mainUser">
-                    <p>{fullname}</p>
-                    <p>Дата рождения: {dateofbirth}</p>
-                    <p>Номер: {phonenumber}</p>
-                    <p>Почта: {username } </p>
-                    <p>Предыдущее учебное заведение: {prevuniversity}</p>
-                    <p>Полученная специальность: {speciality}</p>
+                <div className="first_block">
+                    <p className="label_on_userpage">
+                        Обо мне
+                    </p>
+                    <div className="user_info">
+                        <div className="img_and_fio" >
+                         <img className="img_photouser" src={photouser}  alt="photouser" />
+                      <p className="p_fio">{fullname}</p>   
+                        </div>
+                    
+                    <p className="p_inf">Дата рождения: {dateofbirth}</p>
+                    <p className="p_inf">Номер: {phonenumber}</p>
+                    <p className="p_inf">Почта: {username } </p>
+                    <p className="p_inf">Предыдущее учебное заведение: {prevuniversity}</p>
+                    <p className="p_inf">Полученная специальность: {speciality}</p>
                  
-                    <button  onClick={this.logout}>logout</button>
-                    <button onClick={this.testOnEs}> Пройти еще раз </button>
-                    { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
+                    
+                    <button   className="btn_main_pages">Редактировать </button>
+                    <button   className="btn_main_pages">Изменить пароль</button>
+                    <button  onClick={this.logout} className="btn_main_pages">Выйти из системы</button>
+                    </div>
+                </div>
+                    
+                    <div className="second_block">
+                        <div className="my_result">Мои результаты</div>
+                        <div className ="items_on_result">
+
+                               { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
                         resultOnUserPage.map((item,index) =>(
-                            <div key={index}>
+                            <div>
+                            <div  className="block_positioin_result_img"   key={index}>
+                                
                                  <img className="img_small" src={"http://127.0.0.1:6969/api/get_img_by_id?img_id="+ item.img}  alt="logo" />
                                     <div >{Array.isArray(item.resultAnswer) && Boolean( item.resultAnswer.length) && item.resultAnswer.map(itemResultAnswer =>(
-                                        <div>
-                                            {itemResultAnswer.lesson_type} {itemResultAnswer.per_cent}
+                                        <div className="item_result_answer_on_result">
+                                            {itemResultAnswer.lesson_type}: {itemResultAnswer.per_cent}
 
                                         </div>
                                     ))}</div>
+                                
 
-
-                               
+                              
+                            </div>
+                            <hr></hr>
                             </div>
                                
                         ))
                         
                         }
+                        <button onClick={this.testOnEs} className="btn_again"> Пройти еще раз </button>  
+                  
+                        </div>
+                     
+                    </div>
+                    
                 </div>
             </>
       
