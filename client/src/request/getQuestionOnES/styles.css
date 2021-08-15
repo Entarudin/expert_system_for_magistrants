@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.question {
+width: 670px;
+height: 424px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 33px;
+color: #000000;
+margin-top: 62px;
+margin-bottom: 62px;
+margin-left:436px;
+
+}
+
+.text_answer{
+    padding-top:29px;
+    width:599px;
+    padding-left:10px;
+    text-align: center;
+
+}
+
+
+
+input[type="radio"] {
+width: 22px;
+height: 19px;
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+margin: 0;
+padding-left: 4px;
+margin-right: 20px;
+margin-top:7px;
+
+
+}
+
+
+.position_div{
+    width: 415px;
+height: 46px;
+background-color: #ECEEEE;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 20px;
+margin-left: 127px;
+padding-top:5px;
+padding-left:30px;
+margin-top: 17px;
+display: flex;
+
+}
+
+.position_p{
+    margin: 0;
+    margin-top: -1px;
+}
+.but {
+
+
+font-family: 'Montserrat', sans-serif;
+width: 400px;
+height: 51px;
+
+color: #E5E5E5;
+background: #00304B;
+border-radius: 20px;
+margin-left:580px;
+margin-bottom: 50px;
+}
+
+
+
+.itog{
+font-family: 'Montserrat', sans-serif;
+color: #000000;
+
+}
+
+.itog_result{
+height: 101px;
+font-style: normal;
+font-weight: 500;
+font-size: 65px;
+line-height: 79px;
+margin-left: 367px;
+
+color: #000000;
+
+}
+
+.img_on_itog{
+   
+}
+
+.position_div_img{
+    display: flex;
+}
+
+.items_top_three{
+    display: block;
+}
+
+.item_lesson_type_persent{
+    width: 494px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 44px;
+
+
+}

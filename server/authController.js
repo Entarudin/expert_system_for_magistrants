@@ -114,7 +114,8 @@ class authController{
                 await UserResult.save()  
                return res.json({message: "save new user"})
             }else{
-            const userUpdateResult = await Result.findOneAndUpdate(idUser,{result:req.body.result},{new:true})
+            
+            const userUpdateResult = await Result.findOneAndUpdate({idUser},{result:req.body.result},{new:true})
                return res.json(userUpdateResult)
             }
           

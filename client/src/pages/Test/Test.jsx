@@ -1,5 +1,5 @@
 import React from 'react';
-import { RequestGetQuestionES } from '../request/RequestGetQuestionES';
+import { RequestGetQuestionES } from '../../request/getQuestionOnES/RequestGetQuestionES';
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,9 +14,7 @@ class TestPages extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-
-        };
+        this.state = {};
        
     }
     async componentDidMount() {
@@ -28,7 +26,6 @@ class TestPages extends React.Component {
 
     render() {
       
-
         return (
             <> 
             <RequestGetQuestionES />

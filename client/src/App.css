@@ -28,3 +28,8 @@ input{
   display: block;
   margin-top: 20px;
 }
+
+input[type="radio"] {
+  display: inline;
+  margin-top: 0px;
+}

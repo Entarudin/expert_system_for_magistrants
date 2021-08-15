@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {RequestPostLogin} from './request/RequestPostLogin'
-import {PostRequestRegistration} from './request/RequestPostReqistration'
-import { UpdateDateUser } from './request/UpdateDateUser';
-import { UpdatePassword } from './request/UpdatePassword';
-import UserPages from './pages/UserPages';
-import TestPages from './pages/Test';
+import {RequestPostLogin} from './request/Login/RequestPostLogin'
+import {PostRequestRegistration} from './request/Registration/RequestPostReqistration'
+import { UpdateDateUser } from './request/updateDataOnUser/UpdateDateUser';
+import { UpdatePassword } from './request/updatePassword/UpdatePassword';
+import UserPages from './pages/UserPages/UserPages.jsx';
+import TestPages from './pages/Test/Test.jsx';
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,7 +24,7 @@ function App() {
         <PostRequestRegistration />
       </Route>
 
-      <Route exact path="/users/updatedate">
+      <Route exact path="/users/updatedata">
         <UpdateDateUser />
       </Route>
 

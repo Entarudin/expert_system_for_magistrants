@@ -7,7 +7,7 @@ import {
     Redirect,
     withRouter,
   } from "react-router-dom";
-import '../App.css'
+import '../../App.css'
 
 class UserPages extends React.Component {
     constructor(props) {
@@ -17,7 +17,6 @@ class UserPages extends React.Component {
           user:{},
           resultOnUserPage: [],
           resultDb: 1
-
         };
        
     }
@@ -27,10 +26,9 @@ class UserPages extends React.Component {
         console.log(data)
         this.setState({ user: data })
         this.getResultfromLocalStorage();
-        Boolean(localStorage.getItem('id')) && Boolean(!localStorage.getItem('result')) && this.getResultOnDataBase()
-        this.forceUpdate()
+        Boolean(localStorage.getItem('id')) && Boolean(!localStorage.getItem('result')) && await this.getResultOnDataBase()
         Boolean(localStorage.getItem('id')) && Boolean(localStorage.getItem('result')) && this.requestResult()
-        this.setState({resultDb:3})
+    
     }
 
     getResultfromLocalStorage = async () => {
@@ -67,7 +65,7 @@ class UserPages extends React.Component {
             const responseGetResult = await fetch('http://localhost:5000/auth/users/get_result', requestOptionsGetResult);
             const dataResult = await responseGetResult.json();
             
-            this.setState({resultDb:2})
+            this.setState({resultOnUserPage:JSON.parse(dataResult.result)})
             console.log(this.state.resultDb)
             if(dataResult.result.length){
                  localStorage.setItem("result",dataResult.result)
@@ -101,8 +99,11 @@ class UserPages extends React.Component {
 
     render() {
         const{username, fullname,dateofbirth,phonenumber,prevuniversity,speciality} = this.state.user
-        localStorage.getItem('res')
-    
+        const {resultOnUserPage=[]} = this.state
+        
+        
+
+
         return (
             <> 
                 {!localStorage.getItem('id') && (
@@ -110,21 +111,20 @@ class UserPages extends React.Component {
                 )}
 
                 <div className="mainUser">
-                    <p>ФИО: {fullname}</p>
+                    <p>{fullname}</p>
                     <p>Дата рождения: {dateofbirth}</p>
                     <p>Номер: {phonenumber}</p>
                     <p>Почта: {username } </p>
                     <p>Предыдущее учебное заведение: {prevuniversity}</p>
                     <p>Полученная специальность: {speciality}</p>
-
                  
                     <button  onClick={this.logout}>logout</button>
                     <button onClick={this.testOnEs}> Пройти еще раз </button>
-                    { Array.isArray(this.state.resultOnUserPage) && Boolean(this.state.resultOnUserPage.length) && 
-                        this.state.resultOnUserPage.map(item =>(
-                            <div>
+                    { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
+                        resultOnUserPage.map((item,index) =>(
+                            <div key={index}>
                                  <img className="img_small" src={"http://127.0.0.1:6969/api/get_img_by_id?img_id="+ item.img}  alt="logo" />
-                                    <div>{Array.isArray(item.resultAnswer) && Boolean( item.resultAnswer.length) && item.resultAnswer.map(itemResultAnswer =>(
+                                    <div >{Array.isArray(item.resultAnswer) && Boolean( item.resultAnswer.length) && item.resultAnswer.map(itemResultAnswer =>(
                                         <div>
                                             {itemResultAnswer.lesson_type} {itemResultAnswer.per_cent}
 

@@ -41,8 +41,7 @@ handleSubmit(event){
 
 
     async funcPost(USER) {
-        // POST request using fetch with async/await
-         
+
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -50,21 +49,14 @@ handleSubmit(event){
         };
         const response = await fetch('http://localhost:5000/auth/login', requestOptions);
         const data = await response.json();
-        // console.log(data)
         try {
-        let token = data.token
-        let {id, roles} = jwt_decode(token)
-        
-        localStorage.setItem('id', id);
-        localStorage.setItem('token', token);
-        // console.log(id)
-        // console.log(roles)
-        // <Redirect to={`/users/${id}`} />
-        this.forceUpdate();
-
-
+            let token = data.token
+            let {id} = jwt_decode(token)
+            localStorage.setItem('id', id);
+            localStorage.setItem('token', token);
+            this.forceUpdate();
           } catch(error) {
-            console.log("Шото произошло с декодировкой токена")
+            console.log("Введены неверно данные")
           }
        
     }
