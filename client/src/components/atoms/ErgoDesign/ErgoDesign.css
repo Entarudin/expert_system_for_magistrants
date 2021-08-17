@@ -1,0 +1,33 @@
+.frame_8{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 250px;
+    height: 350px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.logo_pro_8{
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 45px;
+
+}
+.pro_name_8 a{
+    width: 245px;
+    height: 117px;
+    margin-top: 0px;
+    margin-left: 0px;
+    color:black;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+.pro_name_8{
+    text-align: center;
+    margin-top: 20px;
+    }

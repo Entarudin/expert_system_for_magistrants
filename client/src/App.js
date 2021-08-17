@@ -4,8 +4,9 @@ import {RequestPostLogin} from './request/Login/RequestPostLogin'
 import {PostRequestRegistration} from './request/Registration/RequestPostReqistration'
 import { UpdateDateUser } from './request/updateDataOnUser/UpdateDateUser';
 import { UpdatePassword } from './request/updatePassword/UpdatePassword';
-import UserPages from './pages/UserPages/UserPages.jsx';
-import TestPages from './pages/Test/Test.jsx';
+import MainPage from './components/pages/MainPage/MainPage'
+import UserPages from './components/pages/UserPages/UserPages';
+import TestPages from './components/pages/Test/Test';
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,6 +33,7 @@ function App() {
         <UpdatePassword />
       </Route>
 
+      <Route exact path="/" component={MainPage}/>
 
 
 

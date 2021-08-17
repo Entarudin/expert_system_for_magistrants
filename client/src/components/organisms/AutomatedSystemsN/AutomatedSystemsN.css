@@ -1,0 +1,513 @@
+.information_programm9{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr9_logo{
+    width: 200px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.programm9_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 300px;
+    margin-top: -130px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm9_number{
+    width: 500px;
+margin-left: 300px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+}
+.line9{
+    width: 500px;
+    margin-left: 300px;
+}
+.time91{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time92{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_9{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.n9_s{
+    width: 10px;
+    height: 5px;
+}
+.napr9_setting{
+    margin-left: 780px;
+    width: 70px;
+    margin-top: -40px;
+}
+.n9_c{
+    width: 5px;
+    height: 5px;
+}
+.napr9_computer{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.target_9{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: right;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: -55px;
+}
+.target_9_main{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: right;
+    width: 500px;
+    margin-left: 300px;
+}
+.features_9{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: right;
+    width: 450px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.features_9_main{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: right;
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+@media (min-width: 320px) {
+    .information_programm9{
+        width: 100%;
+        height: auto;
+    }
+    .napr9_logo{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    .programm9_name{
+        width: 65%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .programm9_number{
+        width: 65%;
+        margin-left: 15%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .line9{
+        width: 65%;
+        margin-left: 15%;
+        text-align: center;
+    }
+    .time91{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time92{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_9{
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+    .n9_s{
+        width: 10px;
+        height: 5px;
+    }
+    .napr9_setting{
+        margin-left: 780px;
+        width: 0px;
+        margin-top: -40px;
+    }
+    .n9_c{
+        width: 5px;
+        height: 5px;
+    }
+    .napr9_computer{
+        margin-left: 60px;
+        margin-top: 20px;
+        width: 0;
+    }
+    .target_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        width: 68%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .target_9_main{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        width: 65%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .features_9{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .features_9_main{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm9{
+        width: 95%;
+        height: auto;
+        margin-left: 2%;
+    }
+    .napr9_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm9_name{
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -90px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .programm9_number{
+        width: 60%;
+        margin-left: 35%;
+        font-size: 13px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .line9{
+        width: 50%;
+        margin-left: 40%;
+        text-align: center;
+    }
+    .time91{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time92{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_9{
+        margin-left: -60%;
+        margin-top: 30px;
+    }
+    .n9_s{
+        width: 10px;
+        height: 5px;
+    }
+    .napr9_setting{
+        margin-left: 500px;
+        width: 0px;
+        margin-top: -40px;
+    }
+    .n9_c{
+        width: 5px;
+        height: 5px;
+    }
+    .napr9_computer{
+        margin-left: 1000%;
+        margin-top: 20px;
+        width: 80px;
+    }
+    .target_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        width: 68%;
+        margin-left: 30%;
+        margin-top: -30px;
+    }
+    .target_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: center;
+        width: 65%;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    .features_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        width: 63%;
+        margin-left: 30%;
+        margin-top: 25px;
+    }
+    .features_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .information_programm9{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .napr9_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm9_name{
+        width: 60%;
+        margin-left: 30%;
+        margin-top: -100px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm9_number{
+        width: 60%;
+        margin-left: 30%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .line9{
+        width: 60%;
+        margin-left: 30%;
+        text-align: left;
+    }
+    .time91{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .time92{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .time_9{
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+    .n9_s{
+        width: 10px;
+        height: 5px;
+    }
+    .napr9_setting{
+        margin-left: 7000%;
+        width: 0px;
+        margin-top: -40px;
+    }
+    .n9_c{
+        width: 5px;
+        height: 5px;
+    }
+    .napr9_computer{
+        margin-left: 1000%;
+        margin-top: 20px;
+        width: 80px;
+    }
+    .target_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+        width: 68%;
+        margin-left: 20%;
+        margin-top: -30px;
+    }
+    .target_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: right;
+        width: 65%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .features_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+        width: 63%;
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+    .features_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: right;
+        width: 85%;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm9{
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+    }
+    .napr9_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm9_name{
+        width: 60%;
+        margin-left: 30%;
+        margin-top: -100px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm9_number{
+        width: 60%;
+        margin-left: 30%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .line9{
+        width: 60%;
+        margin-left: 30%;
+        text-align: left;
+    }
+    .time91{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .time92{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .time_9{
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+    .n9_s{
+        width: 10px;
+        height: 5px;
+    }
+    .napr9_setting{
+        margin-left: 7000%;
+        width: 0px;
+        margin-top: -40px;
+    }
+    .n9_c{
+        width: 5px;
+        height: 5px;
+    }
+    .napr9_computer{
+        margin-left: 1000%;
+        margin-top: 20px;
+        width: 80px;
+    }
+    .target_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+        width: 68%;
+        margin-left: 20%;
+        margin-top: -30px;
+    }
+    .target_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: right;
+        width: 65%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .features_9{
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+        width: 63%;
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+    .features_9_main{
+        font-size: 13px;
+        line-height: 100%;
+        text-align: right;
+        width: 85%;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,225 @@
+.logo_ictis{
+    /* position: absolute; */
+margin-left: 5%;
+top: 20px;
+width: 20%;
+}
+.blue_line{
+    position: absolute;
+    left: 335px;
+    top: 0px;
+    width: 70%;
+}
+a {
+    color: #ffffff; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #ebf4fc; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #D2F0FF; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+
+.for_abit{
+position: absolute;
+width: 232px;
+height: 36px;
+left: 546px;
+top: 63px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+}
+.web_site{
+    position: absolute;
+
+left: 845px;
+top: 63px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+
+color: #E4DFDF;
+} 
+
+
+@media (min-width: 320px) {
+    .blue_line{
+        position: absolute;
+        left: 30%;
+        top: 0px;
+        width: 70%;
+    }
+    .logo_ictis{
+        /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 18%;
+    }
+    .for_abit{
+        position: absolute;
+        width: 25%;
+        left: 40%;
+        top: 3%;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 55%;
+        line-height: 75%;
+        text-align: right;
+    }
+    .web_site{
+        position: absolute;    
+        width: 29%;        
+        left: 65%;
+        top: 3%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55%;
+    line-height: 76%;
+    text-align: right;
+    
+    color: #E4DFDF;
+    }
+}
+
+@media (min-width: 468px) {
+    .blue_line{
+        position: absolute;
+        left: 30%;
+        top: 0px;
+        width: 70%;
+    }
+    .logo_ictis{
+        /* position: absolute; */
+    left: 7%;
+    margin-top: 4%;
+    width: 18%;
+    }
+    .for_abit{
+        position: absolute;
+        width: 25%;
+        left: 36%;
+        top: 5.5%;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70%;
+    line-height: 77%;
+        text-align: right;
+    }
+    .web_site{
+        position: absolute;    
+        width: 28%;        
+        left: 63%;
+        top: 5.5%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70%;
+    line-height: 85%;
+    text-align: right;
+    
+    color: #E4DFDF;
+    }
+}
+
+@media (min-width: 768px) {
+    .blue_line{
+        position: absolute;
+        left: 30%;
+        top: 0px;
+        width: 70%;
+    }
+    .logo_ictis{
+        /* position: absolute; */
+    left: 7%;
+    margin-top: 3%;
+    width: 20%;
+    }
+    .for_abit{
+        position: absolute;
+        width: 25%;
+        left: 40%;
+        top: 7%;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: right;
+    }
+    .web_site{
+        position: absolute;    
+        width: 29%;        
+        left: 66%;
+        top: 7%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 100%;
+    text-align: right;
+    
+    color: #E4DFDF;
+    }
+}
+@media (min-width: 1024px) {
+    .blue_line{
+        position: absolute;
+        left: 30%;
+        top: 0px;
+        width: 70%;
+    }
+    .logo_ictis{
+        /* position: absolute; */
+    left: 125px;
+    margin-top: 2%;
+    width: 20%;
+    }
+    .for_abit{
+        position: absolute;
+        width: 25%;
+        left: 36.5%;
+        top: 10%;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120%;
+        line-height: 100%;
+        text-align: right;
+    }
+    .web_site{
+        position: absolute;    
+        width: 29%;        
+        left: 63%;
+        top: 10%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120%;
+    line-height: 100%;
+    text-align: right;
+    
+    color: #E4DFDF;
+    }
+}

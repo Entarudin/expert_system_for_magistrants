@@ -1,0 +1,202 @@
+.personalPage{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.PersonalInformation .personalInfo{
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.personalRes{
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.personalInfoTitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: right;
+}
+.personalResTitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: right;
+}
+.edit{
+    background: #00304B;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.change{
+    background: #00304B;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.again{
+    background: #00304B;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+@media (min-width: 320px) {
+    .personalPage{
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .PersonalInformation .personalInfo{
+        width: 300px;
+
+    }
+    .personalRes{
+        width: 300px;
+
+    }
+    .personalInfoTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .personalResTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .edit{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .change{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .again{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 468px) {
+    .personalPage{
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .PersonalInformation .personalInfo{
+        width: 300px;
+
+    }
+    .personalRes{
+        width: 300px;
+
+    }
+    .personalInfoTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .personalResTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .edit{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .change{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .again{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .personalPage{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .PersonalInformation .personalInfo{
+        width: 400px;
+
+    }
+    .personalRes{
+        width: 400px;
+
+    }
+    .personalInfoTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .personalResTitle{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .edit{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .change{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .again{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+}
+@media (min-width: 1024px) {
+
+}

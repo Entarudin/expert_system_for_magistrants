@@ -1,7 +1,7 @@
 import React from 'react';
 import validator from 'validator';
 import {isLength} from 'validator'
-
+import './RegistrationPage.css';
 
 class PostRequestRegistration extends React.Component {
     constructor(props) {
@@ -126,16 +126,18 @@ handleSubmit(event){
     render() {
       
         return (
-            <div className="card text-center m-3">
-                <h5 className="card-header">Registration</h5>
-                <div className="card-body">
-                <form onSubmit={this.handleSubmit}>
+        <div className="Main">
+        <div className="pole">
+            <p className="registration_title"> Регистрация</p>
+              
                  
                  <input  type ="text" 
                  name="name" 
                  value ={this.state.value} 
                  onChange={this.handleChangeFullname}
                  placeholder="ФИО"
+                 className="big_input"
+                 maxLength="30"
                  />
 
                 <input  type ="text" 
@@ -143,20 +145,26 @@ handleSubmit(event){
                  value ={this.state.value} 
                  onChange={this.handleChangePrevUniversity}
                  placeholder="Предыдущее учебное заведение"
+                 className="big_input"
+                 maxLength="30"
                  />
 
                 <input  type ="text" 
                  name="name" 
                  value ={this.state.value} 
                  onChange={this.handleChangeSpeciality}
-                 placeholder="Специальность"
+                 placeholder="Полученная Специальность"
+                 className="big_input"
+                 maxLength="30"
                  />
-
+        <div className="smallInputGroup">
                 <input  type ="text" 
                  name="name" 
                  value ={this.state.value} 
                  onChange={this.handleChangeDateOfBirthday}
                  placeholder="Дата рождения"
+                 className="small_input"
+                 maxLength="12"
                  />
 
                 <input  type ="text" 
@@ -164,37 +172,46 @@ handleSubmit(event){
                  value ={this.state.value} 
                  onChange={this.handleChangePhoneNumber}
                  placeholder="Номер телефона"
+                 className="small_input"
+                 maxLength="12"
                  />
 
-               
+            </div>
                   <input  type ="text"
                    name="name" 
                    value ={this.state.value} 
                    onChange={this.handleChangeUsername}
                    placeholder ="Электронная почта"
+                   className="big_input"
+                   maxLength="30"
                    />
-       
-                  <input  type ="text"
+
+            <div className="smallInputGroup">
+                  <input  type ="password"
                    name="name"
                     value ={this.state.value}
                      onChange={this.handleChangePassword}
                      placeholder="Пароль"
+                     className="small_input"
+                     maxLength="12"
                      />
 
              
                   <input 
-                   type ="text" 
+                   type ="password" 
                    name="name" 
                    value ={this.state.value} 
                    onChange={this.handleChangeReturnPassword}
                    placeholder="Повторите пароль"
+                   className="small_input"
+                   maxLength="12"
 
                    />
-
+        </div>
              
-              <input type ="submit" value = "Отправить"/>
+              <input type ="submit" className="registration_button" value = "Зарегистрироваться" onClick={this.handleSubmit} />
     
-                </form>
+
                 </div>
             </div>
         );

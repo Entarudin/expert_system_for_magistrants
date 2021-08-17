@@ -1,0 +1,147 @@
+.firstSection{
+    background:url("backgroundTitle.jpg");
+    width: 100%;
+    height: 800px;
+}
+.MainH1{
+    width: 600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: right;
+    margin: 0;    
+    color: #FFFFFF;    
+    -webkit-text-stroke: 3px#00304B;
+    margin-left: 40%;
+    padding-top: 10%;
+}
+.MainButton{
+    width: 350px;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+    border-radius: 20px;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+@media (min-width: 320px) {
+    .firstSection{
+        background:url("backgroundTitle.jpg");
+        width: 100%;
+        height: 800px;
+    }
+    .MainH1{
+        width: 80%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0;    
+        color: #FFFFFF;    
+        -webkit-text-stroke: 1.5px#00304B;
+        margin-left: 10%;
+        padding-top: 50%;
+    }
+    .MainButton{
+        width: 70%;
+        height: 70px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 468px) {
+    .firstSection{
+        background:url("backgroundTitle.jpg");
+        width: 100%;
+        height: 700px;
+    }
+    .MainH1{
+        width: 90%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 60px;
+        text-align: right;
+        margin: 0;    
+        color: #FFFFFF;    
+        -webkit-text-stroke: 2px#00304B;
+        margin-left: 5%;
+        padding-top: 30%;
+    }
+    .MainButton{
+        width: 50%;
+        height: 80px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .firstSection{
+        background:url("backgroundTitle.jpg");
+        width: 100%;
+        height: 700px;
+    }
+    .MainH1{
+        width: 90%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: right;
+        margin: 0;    
+        color: #FFFFFF;    
+        -webkit-text-stroke: 2px#00304B;
+        margin-left: 5%;
+        padding-top: 25%;
+    }
+    .MainButton{
+        width: 35%;
+        height: 80px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 60%;
+        margin-top: 5%;
+    }
+}
+@media (min-width: 1024px) {
+    .firstSection{
+        background:url("backgroundTitle.jpg");
+        width: 100%;
+        height: 700px;
+    }
+    .MainH1{
+        width: 50%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 60px;
+        text-align: right;
+        margin: 0;    
+        color: #FFFFFF;    
+        -webkit-text-stroke: 2px#00304B;
+        margin-left: 35%;
+        padding-top: 15%;
+    }
+    .MainButton{
+        width: 25%;
+        height: 80px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 60%;
+        margin-top: 5%;
+    }
+}

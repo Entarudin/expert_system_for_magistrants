@@ -1,0 +1,86 @@
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 10px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.title{
+    color:white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.messagers{
+    height:30px;
+    width:30px;
+    opacity: 0.5;
+    filter: alpha(opacity=80);
+}
+.contact{
+    margin-left: 15%;
+}
+@media (min-width: 320px) {
+    .listitem{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 70%;
+    }
+     .title{
+        color:white;
+        font-size: 40%;
+    }
+}
+
+@media (min-width: 468px) {
+    .listitem{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 50%;
+    }
+     .title{
+        color:white;
+        font-size: 70%;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .listitem{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 60%;
+    }
+    .title{
+        color:white;
+        font-size: 70%;
+    }
+}
+@media (min-width: 1024px) {
+    .listitem{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 75%;
+    }
+    .title{
+        color:white;
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+
+p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: lighter;
+line-height: 10px;
+text-align: left;
+color: #FFFFFF;
+font-size: 13px;
+}
+.title{
+    color:white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.kafedr{
+    margin-left: 25%;
+    margin-right: 15%;
+}
+a{
+    text-decoration: none;
+}

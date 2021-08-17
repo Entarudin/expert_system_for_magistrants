@@ -2,8 +2,9 @@ import React from 'react';
 import jwt_decode from "jwt-decode";
 import {
     Redirect,
+    NavLink,
   } from "react-router-dom";
-
+import './LoginPage.css'
 
 class RequestPostLogin extends React.Component {
     constructor(props) {
@@ -64,34 +65,40 @@ handleSubmit(event){
     render() {
         const userId = localStorage.getItem('id');
         return (
-            <div className="card text-center m-3">
+            <div className="Main">
+            <div className="pole">
                 {localStorage.getItem('id') && (
                     <Redirect to={`/users/${userId}`}/>
                 )}
-                <h5 className="card-header">Вход в систему</h5>
-                <div className="card-body">
+             <p className="login_title"> Вход в систему </p>
                 <form onSubmit={this.handleSubmit}>
                 
-                  <input  type ="text" 
+                  <input  
+                  type ="text" 
                   name="name" 
+                  className="loginInput"
                   value ={this.state.value}
                    onChange={this.handleChangeUsername}
-                   placeholder="Имя"
+                   placeholder="Электронная почта"
+                   maxLength="30"
                    />
          
-                  <input  type ="text"
+                  <input  type ="password"
                    name="name"
+                   className="loginInput"
                     value ={this.state.value}
                      onChange={this.handleChangePassword}
                      placeholder="Пароль"
+                     maxLength="12"
                      />
 
  
-              <input type ="submit" value = "Отправить"/>
+              <input type ="submit" className="login_button" value = "Войти"/>
     
                 </form>
+                <NavLink to='/auth/registration'> <button className="login_button_reg">Зарегистрироваться</button></NavLink>
                 </div>
-            </div>
+                </div>
         );
     }
 }
