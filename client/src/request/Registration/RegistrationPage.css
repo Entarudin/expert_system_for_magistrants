@@ -49,6 +49,7 @@
     padding-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    color: black;
 
 }
 .registration_button{
@@ -64,6 +65,21 @@
 .smallInputGroup{
     display: flex;
     justify-content: space-between;
+}
+
+.messageOnErrorRegistation{
+    color: red;
+    margin-left: 27%;
+    margin-top: -2%;
+    font-size:15px;
+    font-weight: 300;
+}
+.messageOnServerRegistation{
+    color: royalblue;
+    margin-left: 27%;
+    margin-top: -2%;
+    font-size:15px;
+    font-weight: 300;
 }
 @media (min-width: 320px) {
     .Main{
@@ -111,6 +127,21 @@
         margin-left: 13%;
         margin-top: 10px;
     }
+    .messageOnErrorRegistation{
+        font-size: 13px;
+        line-height: 23px;
+        margin-left: 17%;
+        width: 49%;
+        margin-top: -20%;
+    }
+    .messageOnServerRegistation{
+        font-size: 13px;
+        line-height: 23px;
+        margin-left: 17%;
+        width: 49%;
+        margin-top: -20%;
+    }
+    
 }
 
 @media (min-width: 468px) {
@@ -139,7 +170,8 @@
     .smallInputGroup{
         display: flex;
         justify-content: space-between;
-        width:  84%;
+        width:  83%;
+        
     }
     .registration_title{
         font-size: 20px;
@@ -158,6 +190,15 @@
         margin-left: 13%;
         margin-top: 5%;
     }
+    .messageOnErrorRegistation{
+        font-size: 13px;
+        /* line-height: 30px; */
+        margin-left: 25%;
+        /* width: 73%; */
+        margin-top: -20%;
+    
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -209,6 +250,22 @@
         margin-left: 13%;
         
     }
+    .messageOnErrorRegistation{
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 31%;
+        width: 40%;
+        margin-top: -7%;
+    
+    }
+    .messageOnServerRegistation{
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 31%;
+        width: 40%;
+        margin-top: -7%;
+    }
+   
 }
 @media (min-width: 1024px) {
     .Main{
@@ -240,7 +297,7 @@
     .smallInputGroup{
         display: flex;
         justify-content: space-between;
-        width:  84%;
+        width:  83%;
     }
     .registration_title{
         font-size: 20px;
@@ -260,4 +317,17 @@
         margin-top: 0;
         
     }
+    .messageOnErrorRegistation{
+        font-size: 15px;
+        /* line-height: 40px; */
+        margin-top: -5%;
+        margin-left: 31%;;
+    }
+    .messageOnServerRegistation{
+        font-size: 15px;
+        /* line-height: 40px; */
+        margin-top: -5%;
+        margin-left: 31%;;
+    }
+   
 }

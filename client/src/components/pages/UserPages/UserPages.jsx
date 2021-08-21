@@ -6,10 +6,12 @@ import {
     Link,
     Redirect,
     withRouter,
+    NavLink
   } from "react-router-dom";
 
 import './styles.css'
-
+import Footer from '../../organisms/Footer/Footer';
+import Header from '../../organisms/Header/Header';
 class UserPages extends React.Component {
     constructor(props) {
         super(props);
@@ -107,10 +109,11 @@ class UserPages extends React.Component {
 
         return (
             <> 
+
                 {!localStorage.getItem('id') && (
                     <Redirect to={`/auth/login`}/>
                 )}
-
+                <Header />
                 <div className="mainUser">
                 <div className="first_block">
                     <p className="label_on_userpage">
@@ -129,18 +132,22 @@ class UserPages extends React.Component {
                     <p className="p_inf">Полученная специальность: {speciality}</p>
                  
                     
-                    <button   className="btn_main_pages">Редактировать </button>
-                    <button   className="btn_main_pages">Изменить пароль</button>
+                  <NavLink to ="/users/updatedata" > <button   className="btn_main_pages">Редактировать </button></NavLink>
+                  <NavLink to="/users/updatepassword"><button   className="btn_main_pages">Изменить пароль</button></NavLink>
+                    
                     <button  onClick={this.logout} className="btn_main_pages">Выйти из системы</button>
                     </div>
                 </div>
                     
                     <div className="second_block">
                         <div className="my_result">Мои результаты</div>
+                   
                         <div className ="items_on_result">
-
+                            { Array.isArray(resultOnUserPage) && !resultOnUserPage.length && (
+                                                <h1> Вы еще не проходили тестирование</h1>
+                                            )}
                                { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
-                        resultOnUserPage.map((item,index) =>(
+                             resultOnUserPage.map((item,index) =>(
                             <div>
                             <div  className="block_positioin_result_img"   key={index}>
                                 
@@ -161,13 +168,14 @@ class UserPages extends React.Component {
                         ))
                         
                         }
-                        <button onClick={this.testOnEs} className="btn_again"> Пройти еще раз </button>  
+                        <button onClick={this.testOnEs} className="btn_again"> Пройти тест </button>  
                   
                         </div>
                      
                     </div>
                     
                 </div>
+                <Footer />
             </>
       
         );

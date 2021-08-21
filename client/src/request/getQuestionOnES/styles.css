@@ -79,14 +79,17 @@ color: #000000;
 font-family: 'Montserrat', sans-serif;
 width: 400px;
 height: 51px;
-
+font-size: 15px;
 color: #E5E5E5;
 background: #00304B;
 border-radius: 20px;
 margin-left:580px;
 margin-bottom: 50px;
+cursor: pointer;
 }
-
+.btn:hover{
+    background-color:#006ca3;
+}
 
 
 .itog{

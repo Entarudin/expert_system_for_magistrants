@@ -1,14 +1,17 @@
 import React from 'react';
 import validator from 'validator';
 import {isLength} from 'validator'
-
-
+import {NavLink} from 'react-router-dom'
+import Header from '../../components/organisms/Header/Header';
+import Footer from '../../components/organisms/Footer/Footer';
+import './UserEditing.css';
 class UpdateDateUser extends React.Component {
     constructor(props) {
         super(props);
         
         this.state = {
-            errors: '',
+            succes: '',
+            error: '',
             username:"",
             prevuniversity:"",
             speciality:"",
@@ -89,7 +92,7 @@ handleChangePrevUniversity(event){
 handleSubmit(event){
     try{
         if(!validator.isEmail(this.state.username))  throw new Error ("Введите адрес электронной почты в формате proverka@example.com");
-        if(!validator.isLength(this.state.prevuniversity, {min:4, max:12})) throw new Error ("Поле предыдущего учебного заведения должно быть больше 3")
+        if(!validator.isLength(this.state.prevuniversity, {min:3, max:12})) throw new Error ("Поле предыдущего учебного заведения должно быть больше 3")
         if(!validator.isLength(this.state.speciality,{min:3})) throw new Error ("Поле специальности должно быть больше 3")
         if(!validator.isDate(this.state.dateofbirth)) throw new Error ("Неверно введена дата рождения, введите в формате [2002-07-15]")
         if (!validator.isMobilePhone(this.state.phonenumber)) throw new Error ("Неверно введен номер телефона")
@@ -107,6 +110,7 @@ handleSubmit(event){
    this.funcPost(USER)    
     } catch(e){
       console.log(e.message)
+      this.setState({error : "*"+ e.message})
 
     }
      event.preventDefault()
@@ -121,7 +125,7 @@ handleSubmit(event){
         };
         const response = await fetch('http://localhost:5000/auth/users/update_on_user', requestOptions);
         const data = await response.json();
-
+        this.setState({succes:data.message})
         
         console.log(data);
        
@@ -130,23 +134,58 @@ handleSubmit(event){
     render() {
       
         return (
-            <div className="card text-center m-3">
-                <div className="card-body">
-                    <h1>Редактирование данных</h1>
-                <form onSubmit={this.handleSubmit}>
+         <div>
+         <Header />
+         <p className="UserEditingTitle">Редактирование профиля</p>
+      <div className="UserEditing"> 
+                
+              
                  
                  <input  type ="text" 
                  name="name" 
                  value ={this.state.fullname} 
                  onChange={this.handleChangeFullname}
                  placeholder="ФИО"
+                 className="big_input_editing"
                  />
+
+         <div className="smallInputGroup">
+     <input  type ="text" 
+                 name="name" 
+                 value ={this.state.dateofbirth} 
+                 onChange={this.handleChangeDateOfBirthday}
+                 placeholder="Дата рождения"
+                 className="small_input_editing"
+                 />
+
+
+
+                <input  type ="text" 
+                 name="name" 
+                 value ={this.state.phonenumber} 
+                 onChange={this.handleChangePhoneNumber}
+                 placeholder="Номер телефона"
+                 className="small_input_editing"
+                 />
+
+     </div>
+
+                  
+                  <input  type ="text"
+                   name="name" 
+                   value ={this.state.username} 
+                   onChange={this.handleChangeUsername}
+                   placeholder ="Электронная почта"
+                   className="big_input_editing"
+                   />
+       
 
                 <input  type ="text" 
                  name="name" 
                  value ={this.state.prevuniversity} 
                  onChange={this.handleChangePrevUniversity}
                  placeholder="Предыдущее учебное заведение"
+                 className="big_input_editing"
                  />
 
                 <input  type ="text" 
@@ -154,38 +193,29 @@ handleSubmit(event){
                  value ={this.state.speciality} 
                  onChange={this.handleChangeSpeciality}
                  placeholder="Специальность"
+                 className="big_input_editing"
                  />
-
-                <input  type ="text" 
-                 name="name" 
-                 value ={this.state.dateofbirth} 
-                 onChange={this.handleChangeDateOfBirthday}
-                 placeholder="Дата рождения"
-                 />
-
-                <input  type ="text" 
-                 name="name" 
-                 value ={this.state.phonenumber} 
-                 onChange={this.handleChangePhoneNumber}
-                 placeholder="Номер телефона"
-                 />
-
-               
-                  <input  type ="text"
-                   name="name" 
-                   value ={this.state.username} 
-                   onChange={this.handleChangeUsername}
-                   placeholder ="Электронная почта"
-                   />
-       
-                  
 
              
-              <input type ="submit" value = "Отправить"/>
+
+
+           
+        <NavLink to='/auth/login'><button className="editing_button">
+               Отменить
+            </button></NavLink>
+
+             
+              <input type ="submit" 
+              onClick={this.handleSubmit}
+              value = "Сохранить"
+               className="editing_button"/>
     
-                </form>
+                
                 </div>
-            </div>
+                <p className="messageOnError">{this.state.error}</p>
+                <p className="messageOnServer">{this.state.succes}</p>
+                <Footer />
+        </div>
         );
     }
 }

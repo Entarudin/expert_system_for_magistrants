@@ -5,12 +5,15 @@ import {
     NavLink,
   } from "react-router-dom";
 import './LoginPage.css'
+import validator from 'validator';
 
 class RequestPostLogin extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
+            error:"",
+            errorToken:"",
             username:"",
             password:""
         };
@@ -32,11 +35,19 @@ handleChangePassword(event){
 }
 
 handleSubmit(event){
+    try{
+        if(!validator.isEmail(this.state.username)) throw new Error ("Введите адрес электронной почты в формате proverka@example.com");
+        if(!validator.isLength(this.state.password , {min:4, max:12})) throw new Error("Пароль должен быть больше 4  и меньше 12 символов")
     let USER ={
         username: this.state.username,
         password: this.state.password
     }
     this.funcPost(USER);
+    }catch(e){
+        this.setState({error:"*" + e.message})
+
+    }
+
     event.preventDefault()
 }
 
@@ -57,6 +68,7 @@ handleSubmit(event){
             localStorage.setItem('token', token);
             this.forceUpdate();
           } catch(error) {
+              this.setState({errorToken:"Введены неверно данные"})
             console.log("Введены неверно данные")
           }
        
@@ -91,8 +103,8 @@ handleSubmit(event){
                      placeholder="Пароль"
                      maxLength="12"
                      />
-
- 
+                <p className="auth_error">{this.state.error}</p>
+                <p className="auth_error">{this.state.errorToken}</p>
               <input type ="submit" className="login_button" value = "Войти"/>
     
                 </form>

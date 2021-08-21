@@ -98,16 +98,16 @@ class RequestGetQuestionES extends React.Component {
             };
             const responseResult = await fetch('http://localhost:5000/auth/users/result', requestOptions);
             const dataResult = await responseResult.json();
+            
         }catch(e){
 
         }
     }
 
-
     render() {
-        const { totalReactPackages,resultArray , step, topThreeAndImg} = this.state;
-        const userId = localStorage.getItem("id")
+        const { totalReactPackages,resultArray , step, topThreeAndImg, answers} = this.state;
         const countOfQuestions = 15;
+        const answersLenghtOnFirstStep = Object.keys(answers).length
         return (
             <div className="card text-center m-3">
             <form onSubmit={this.handleSubmit} id = "myForm" >
@@ -270,9 +270,46 @@ class RequestGetQuestionES extends React.Component {
                 </div>
                 
                 )}
-                {step === 1 && (  <button onClick={this.handleSubmitFirst} className="but">Продолжить</button>)}
-                        {step === 2 && (  <button onClick ={this.handleSubmitSecond} className="but">Продолжить</button>)}
-                        {step === 3 && (  <button onClick={this.requestResult} className="but">Отправить 3 шаг</button>)  }
+                        {step === 1 && 
+                        (  <button
+                         onClick={this.handleSubmitFirst} 
+                         className="but"
+                         style={{
+                            
+                             opacity:  !(answersLenghtOnFirstStep -1 === totalReactPackages.length) ? 0.5 : 1,
+                             pointerEvents:  answersLenghtOnFirstStep -1 === totalReactPackages.length ? "auto" : "none"
+                         }}
+                         >
+                             Продолжить
+                             </button>
+                             )}
+
+
+
+                        {step === 2 && (
+                              <button 
+                              onClick ={this.handleSubmitSecond}
+                               className="but"
+                               style={{
+                            
+                                opacity:  !(answersLenghtOnFirstStep  === resultArray.length) ? 0.5 : 1,
+                                pointerEvents:  answersLenghtOnFirstStep  === resultArray.length ? "auto" : "none"
+                            }}
+                               >
+                                   Продолжить
+                                   </button>
+                                   )}
+
+
+
+                        {step === 3 && ( 
+                             <button 
+                             onClick={this.requestResult}
+                              className="but"
+                              >
+                            Отправить 3 шаг
+                            </button>
+                            )  }
                         <div>
 
 

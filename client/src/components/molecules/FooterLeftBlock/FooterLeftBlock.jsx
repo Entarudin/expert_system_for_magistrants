@@ -12,9 +12,9 @@ const FooterLeftBlock = () => {
             <p className="listitem">Телефон: 8 (8634) 360-450</p>
             <p className="listitem">E-Mail: info@ictis.sfedu.ru</p>
 
-            <a href="https://vk.com/ictis_sfedu"><img className="messagers" src="icons/vk.png" /></a>
-             <a  href="https://www.facebook.com/groups/ICTIS.SFedU/"><img className="messagers" src="icons/fb.png" /></a>
-            <a  href="https://www.instagram.com/ictis_sfedu/"><img className="messagers" src="icons/inst.png"/></a>
+            <a href="https://vk.com/ictis_sfedu"><img className="messagers" src="/icons/vk.png" /></a>
+             <a  href="https://www.facebook.com/groups/ICTIS.SFedU/"><img className="messagers" src="/icons/fb.png" /></a>
+            <a  href="https://www.instagram.com/ictis_sfedu/"><img className="messagers" src="/icons/inst.png"/></a>
         </div>
        
 </>

@@ -8,12 +8,12 @@ import {
     Redirect,
     withRouter,
   } from "react-router-dom";
-
+import Header from '../../organisms/Header/Header';
+import Footer from '../../organisms/Footer/Footer';
 
 class TestPages extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {};
        
     }
@@ -28,7 +28,9 @@ class TestPages extends React.Component {
       
         return (
             <> 
+            <Header />
             <RequestGetQuestionES />
+            <Footer />
              </>  
         );
     }

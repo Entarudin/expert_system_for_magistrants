@@ -8,7 +8,6 @@
     margin-left: 30%;
     padding-top: 50px;
     margin-bottom: 80px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .big_input_editing{
@@ -40,6 +39,7 @@
     border:none;
     margin-left: 8%;
     margin-top: 10px;
+    cursor: pointer;
 
 }
 .smallInputGroup{
@@ -48,12 +48,24 @@
     width: 400px;
 }
 .UserEditingTitle{
-    font-family: Montserrat;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 49px;
 margin-left: 33%;
+color: black;
+}
+
+.messageOnError {
+    color: red;
+    font-weight: 300;
+    margin-top: -4%;
+}
+.messageOnServer{
+    color: royalblue;
+    font-weight: 300;
+    margin-top: -4%;
 }
 @media (min-width: 320px) {
     .UserEditing{
@@ -90,6 +102,17 @@ margin-left: 33%;
     line-height: 49px;
     margin-left: 20%;
     }
+    .messageOnError {
+        font-size: 10px;
+        line-height: 49px;
+        margin-left: 17%;
+    }
+    .messageOnServer{
+        font-size: 10px;
+        line-height: 49px;
+        margin-left: 17%;
+    }
+        
 }
 @media (min-width: 468px) {
     .UserEditing{
@@ -126,6 +149,17 @@ margin-left: 33%;
     line-height: 49px;
     margin-left: 20%;
     }
+    .messageOnError {
+        font-size: 15px;
+        line-height: 49px;
+        margin-left: 17%;
+    }
+    .messageOnServer{
+        font-size: 15px;
+        line-height: 49px;
+        margin-left: 17%;
+    }
+    
 }
 @media (min-width: 768px) {
     .UserEditing{
@@ -162,6 +196,19 @@ margin-left: 33%;
     line-height: 49px;
     margin-left: 23%;
     }
+
+    .messageOnError {
+        font-size: 15px;
+        line-height: 49px;
+        margin-left: 20%;
+    }
+
+    .messageOnServer{
+        font-size: 15px;
+        line-height: 49px;
+        margin-left: 20%;
+    }
+        
 }
 @media (min-width: 1024px) {
     .UserEditing{
@@ -198,4 +245,15 @@ margin-left: 33%;
     line-height: 49px;
     margin-left: 30%;
     }
+    .messageOnError {
+    font-size: 15px;
+    line-height: 49px;
+    margin-left: 27%;
+    }
+    .messageOnServer{
+        font-size: 15px;
+        line-height: 49px;
+        margin-left: 27%;
+    }
+    
 }

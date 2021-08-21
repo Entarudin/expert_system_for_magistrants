@@ -28,7 +28,7 @@
     color: white;
     border:none;
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .login_button_reg{
     background: #022A6C;
@@ -56,6 +56,12 @@
 .NavLinkLogin{
     margin-left: 26%;
     margin-top: 5%;
+}
+.auth_error{
+    color: red;
+    font-weight: 300;
+    margin-left: 1%;
+    
 }
 @media (min-width: 320px) {
     .Main{

@@ -2,12 +2,23 @@ import React from 'react';
 import validator from 'validator';
 import {isLength} from 'validator'
 import './RegistrationPage.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect,
+    withRouter,
+    NavLink
+  } from "react-router-dom";
 
 class PostRequestRegistration extends React.Component {
     constructor(props) {
         super(props);
         
         this.state = {
+            isRegistration:false,
+            succes:"",
             errors: '',
             username:"",
             password:"",
@@ -83,7 +94,7 @@ handleSubmit(event){
     try{
         if(!validator.isEmail(this.state.username)) throw new Error ("Введите адрес электронной почты в формате proverka@example.com");
         if(!isLength(this.state.password , {min:4, max:12})) throw new Error("Пароль должен быть больше 4  и меньше 12 символов")
-        if(!validator.isLength(this.state.prevuniversity, {min:4, max:12})) throw new Error ("Поле предыдущего учебного заведения должно быть больше 3")
+        if(!validator.isLength(this.state.prevuniversity, {min:3, max:12})) throw new Error ("Поле предыдущего учебного заведения должно быть больше 3")
         if(!validator.isLength(this.state.speciality,{min:3})) throw new Error ("Поле специальности должно быть больше 3")
         if(!validator.isDate(this.state.dateofbirth)) throw new Error ("Неверно введена дата рождения, введите в формате [2002-07-15]")
         if (!validator.isMobilePhone(this.state.phonenumber)) throw new Error ("Неверно введен номер телефона")
@@ -103,6 +114,7 @@ handleSubmit(event){
    this.funcPost(USER)    
     } catch(e){
       console.log(e.message)
+      this.setState({errors:"*"+e.message})
 
     }
      event.preventDefault()
@@ -118,8 +130,9 @@ handleSubmit(event){
         };
         const response = await fetch('http://localhost:5000/auth/registration', requestOptions);
         const data = await response.json();
-        
+        this.setState({succes:data.message, isRegistration:true})
         console.log(data);
+
        
     }
 
@@ -127,6 +140,11 @@ handleSubmit(event){
       
         return (
         <div className="Main">
+            {
+                Boolean(this.state.isRegistration) &&   
+                    (<Redirect to="auth/login"/>) 
+                 
+            }
         <div className="pole">
             <p className="registration_title"> Регистрация</p>
               
@@ -208,11 +226,14 @@ handleSubmit(event){
 
                    />
         </div>
+            
              
               <input type ="submit" className="registration_button" value = "Зарегистрироваться" onClick={this.handleSubmit} />
     
 
                 </div>
+                <p className="messageOnErrorRegistation">{this.state.errors}</p>
+                <p className="messageOnServerRegistation">{this.state.succes}</p>
             </div>
         );
     }

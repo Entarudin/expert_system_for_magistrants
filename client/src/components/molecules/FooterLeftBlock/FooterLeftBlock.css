@@ -1,5 +1,5 @@
 p {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: lighter;
     line-height: 10px;
@@ -20,10 +20,11 @@ p {
 }
 .contact{
     margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
 }
 @media (min-width: 320px) {
     .listitem{
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: lighter;
         line-height: 10px;
@@ -39,7 +40,7 @@ p {
 
 @media (min-width: 468px) {
     .listitem{
-        font-family: Montserrat;
+         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: lighter;
         line-height: 10px;

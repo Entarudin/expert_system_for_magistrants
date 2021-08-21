@@ -1,13 +1,16 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import validator from 'validator';
 import {isLength} from 'validator'
-
-
+import './changePassword.css'
+import Header from '../../components/organisms/Header/Header';
+import Footer from '../../components/organisms/Footer/Footer';
 class UpdatePassword extends React.Component {
     constructor(props) {
         super(props);
         
         this.state = {
+            succes:"",
             errors: '',
             username:"",
             prevuniversity:"",
@@ -94,6 +97,7 @@ handleSubmit(event){
    this.funcPost(USER)    
     } catch(e){
       console.log(e.message)
+      this.setState({errors:"*"+e.message})
 
     }
      event.preventDefault()
@@ -108,7 +112,7 @@ handleSubmit(event){
         };
         const response = await fetch('http://localhost:5000/auth/users/update_password', requestOptions);
         const data = await response.json();
-
+        this.setState({succes:data.message})
         
         console.log(data);
        
@@ -117,36 +121,46 @@ handleSubmit(event){
     render() {
       
         return (
-            <div className="card text-center m-3">
-                <div className="card-body">
-                    <h1>Изменить пароль</h1>
-                <form onSubmit={this.handleSubmit}>
+           
+            <div>
+                <Header /> 
+            <p className="PasswordEditingTitle">Изменить пароль</p>
+            <div className="UserEditingPassword"> 
+                
                  
                 
-                    <input  type ="text"
+                    <input  type ="password"
                    name="name"
                     value ={this.state.value}
                      onChange={this.handleChangePassword}
                      placeholder="Новый Пароль"
+                     className="big_input_editing"
+                     maxLength="12"
                      />
 
              
                   <input 
-                   type ="text" 
+                   type ="password" 
                    name="name" 
                    value ={this.state.value} 
                    onChange={this.handleChangeReturnPassword}
                    placeholder="Повторите пароль"
+                   className="big_input_editing"
+                   maxLength="12"
 
                    />
-       
-                  
+       <p className="errorOnUpdatePasword">{this.state.errors}</p>
+       <p className="succesOnUpdatePasword">{this.state.succes}</p>
 
-             
-              <input type ="submit" value = "Отправить"/>
-    
-                </form>
+       <NavLink to='/auth/login'><button className="editing_button">
+               Отменить
+            </button></NavLink>
+
+              <input type ="submit" className="editing_button" value = "сохранить" onClick={this.handleSubmit}/>
+
+                
                 </div>
+                <Footer />
             </div>
         );
     }
