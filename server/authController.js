@@ -129,7 +129,10 @@ class authController{
         try {
             const {idUser} = req.body
            const resultTest = await Result.findOne({idUser})
-           res.json({result:resultTest.result})
+                if(resultTest){
+                 return res.json({result:resultTest.result}) 
+                }
+         
           
         } catch(e){
            console.log(e) 

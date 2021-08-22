@@ -3,6 +3,7 @@ import qs from 'qs';
 import './styles.css'
 import {
     Redirect,
+    NavLink
   } from "react-router-dom";
 
 class RequestGetQuestionES extends React.Component {
@@ -246,7 +247,7 @@ class RequestGetQuestionES extends React.Component {
                 </form>
 
                 {Boolean(topThreeAndImg.length)&& (
-                    <div className="itog">
+                    <>
                         <div className="itog_result">Итоговый результат</div>
                         <div className="position_div_img">
                     
@@ -261,19 +262,19 @@ class RequestGetQuestionES extends React.Component {
 
                         </div>
 
-                    ))} 
+                      ))} 
                              </div>
                     
                         </div>
                   
 
-                </div>
+                       </>
                 
-                )}
+                     )}
                         {step === 1 && 
                         (  <button
                          onClick={this.handleSubmitFirst} 
-                         className="but"
+                         className="butTest"
                          style={{
                             
                              opacity:  !(answersLenghtOnFirstStep -1 === totalReactPackages.length) ? 0.5 : 1,
@@ -289,7 +290,7 @@ class RequestGetQuestionES extends React.Component {
                         {step === 2 && (
                               <button 
                               onClick ={this.handleSubmitSecond}
-                               className="but"
+                               className="butTest"
                                style={{
                             
                                 opacity:  !(answersLenghtOnFirstStep  === resultArray.length) ? 0.5 : 1,
@@ -304,13 +305,15 @@ class RequestGetQuestionES extends React.Component {
 
 
                         {step === 3 && (
-
-                             <button 
+                            <NavLink to="/information_page">
+                                <button 
                              onClick={this.requestResult}
                               className="but"
                               >
                          Узнать о направлениях подготовки
-                            </button>
+                            </button> 
+                            </NavLink>
+                            
                             )  }
                         <div>
 

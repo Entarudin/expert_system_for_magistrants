@@ -14,6 +14,7 @@ const MainFirstSection = () => {
       <h1 className="MainH1">Экспертная система по подбору направления 
       для поступающих в магистратуру ИКТИБ</h1>
       <NavLink to="/auth/login"><button className="MainButton">Подобрать направление</button></NavLink>
+      <NavLink to="/information_page"><button className="MainButton2">Информация о направлениях</button></NavLink>
       
     </div>
     );

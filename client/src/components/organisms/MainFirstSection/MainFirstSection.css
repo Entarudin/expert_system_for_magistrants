@@ -26,7 +26,19 @@
     margin-top: 5%;
     cursor: pointer;
 }
+.MainButton2{
+    width: 350px;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+    border-radius: 20px;
+    margin-left: 60%;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .MainButton:hover{
+    background:#66a6c7;
+}
+.MainButton2:hover{
     background:#66a6c7;
 }
 @media (min-width: 320px) {
@@ -59,6 +71,16 @@
         font-weight: 400;
         font-size: 16px;
     }
+    .MainButton2{
+        width: 70%;
+        height: 70px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-weight: 400;
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 468px) {
@@ -82,11 +104,19 @@
         padding-top: 30%;
     }
     .MainButton{
-        width: 50%;
-        height: 80px;
+        width: 40%;
+        height: 60px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
         border-radius: 20px;
-        margin-left: 45%;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    .MainButton2{
+        width: 40%;
+        height: 60px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 50%;
         margin-top: 5%;
     }
 }
@@ -112,12 +142,21 @@
         padding-top: 25%;
     }
     .MainButton{
-        width: 35%;
+        width: 30%;
         height: 80px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
         border-radius: 20px;
-        margin-left: 60%;
+        margin-left: 65%;
         margin-top: 5%;
+    }
+    .MainButton2{
+        width: 30%;
+        height: 80px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 65%;
+        margin-top: 3%;
+    
     }
 }
 @media (min-width: 1024px) {
@@ -142,10 +181,18 @@
     }
     .MainButton{
         width: 25%;
-        height: 80px;
+        height: 60px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
         border-radius: 20px;
-        margin-left: 60%;
-        margin-top: 5%;
+        margin-left: 58%;
+        margin-top: 2%;
+    }
+    .MainButton2{
+        width: 25%;
+        height: 60px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(198, 235, 255, 0.9) 100%);
+        border-radius: 20px;
+        margin-left: 58%;
+        margin-top: 2%;
     }
 }

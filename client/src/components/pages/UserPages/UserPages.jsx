@@ -104,10 +104,8 @@ class UserPages extends React.Component {
         const{username, fullname,dateofbirth,phonenumber,prevuniversity,speciality} = this.state.user
         const {resultOnUserPage=[]} = this.state
         const LenghtOnItemsScroll =  Boolean(Array.isArray(resultOnUserPage)) && resultOnUserPage.length <= 2
-        const LenghtOnItemsEmptyScroll = !( resultOnUserPage && Array.isArray(resultOnUserPage) &&  resultOnUserPage.length === 0)
-        console.log(LenghtOnItemsEmptyScroll)
-        console.log("array", resultOnUserPage)
-
+        const LenghtOnItemsEmptyScroll = Boolean( resultOnUserPage && Array.isArray(resultOnUserPage) &&  resultOnUserPage.length < 1)
+       console.log(LenghtOnItemsEmptyScroll)
 
         return (
             <> 
@@ -117,11 +115,13 @@ class UserPages extends React.Component {
                 )}
                 <Header />
                 <div className="mainUser">
-                <div className="first_block">
+                
                     <p className="label_on_userpage">
                         Обо мне
                     </p>
-                    <div className="user_info">
+                    <div className="user_info"
+                   
+                    >
                         <div className="img_and_fio" >
                          <img className="img_photouser" src="/img/img_userpages.png" alt="photouser" />
                       <p className="p_fio">{fullname}</p>   
@@ -139,15 +139,15 @@ class UserPages extends React.Component {
                     
                     <button  onClick={this.logout} className="btn_main_pages">Выйти из системы</button>
                     </div>
-                </div>
+              
                     
-                    <div className="second_block">
+                   
                         <div className="my_result">Мои результаты</div>
                    
                         <div className ="items_on_result" 
-                        style={{
-                            height: LenghtOnItemsEmptyScroll ? "300px" : "730px"
-                        }}
+                         style={{
+                             height: LenghtOnItemsEmptyScroll ? "auto" : "auto"
+                         }}
                         >
                          
                             <div 
@@ -181,17 +181,22 @@ class UserPages extends React.Component {
                         }
 
                             </div>
-                            {LenghtOnItemsEmptyScroll && (
-                                                <h1> Вы еще не проходили тестирование</h1>
-                                            )}
+                            
                         <button onClick={this.testOnEs} className="btn_again"> Пройти тест </button>  
                   
                         </div>
                      
-                    </div>
+               
                     
                 </div>
-                <Footer />
+                <div
+                style={{
+                    marginTop: LenghtOnItemsEmptyScroll ? "10px" : "550px"
+                }}
+                >
+                    <Footer /> 
+                </div>
+               
             </>
       
         );
