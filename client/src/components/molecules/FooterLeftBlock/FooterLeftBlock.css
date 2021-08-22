@@ -1,5 +1,5 @@
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: lighter;
     line-height: 10px;
@@ -20,11 +20,10 @@ p {
 }
 .contact{
     margin-left: 15%;
-    font-family: 'Montserrat', sans-serif;
 }
 @media (min-width: 320px) {
     .listitem{
-        font-family: 'Montserrat', sans-serif;
+        font-family: Montserrat;
         font-style: normal;
         font-weight: lighter;
         line-height: 10px;
@@ -36,11 +35,14 @@ p {
         color:white;
         font-size: 40%;
     }
+    .contact{
+        margin-left: 5%;
+    }
 }
 
 @media (min-width: 468px) {
     .listitem{
-         font-family: 'Montserrat', sans-serif;
+        font-family: Montserrat;
         font-style: normal;
         font-weight: lighter;
         line-height: 10px;
@@ -69,6 +71,9 @@ p {
         color:white;
         font-size: 70%;
     }
+    .contact{
+        margin-left: 15%;
+    }
 }
 @media (min-width: 1024px) {
     .listitem{
@@ -83,5 +88,8 @@ p {
     .title{
         color:white;
         font-size: 100%;
+    }
+    .contact{
+        margin-left: 15%;
     }
 }

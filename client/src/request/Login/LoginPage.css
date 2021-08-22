@@ -29,6 +29,7 @@
     border:none;
     margin-left: 25%;
     margin-top: 5%;
+    cursor: pointer;
 }
 .login_button_reg{
     background: #022A6C;
@@ -39,7 +40,15 @@
     border:none;
     margin-left: 25%;
     margin-top: 10px;
+    cursor: pointer;
 }
+.login_button:hover{
+    background-color:#006ca3;
+}
+.login_button_reg:hover{
+    background-color:#006ca3;
+}
+
 .loginInput{
     width: 390px;
     height: 40px;

@@ -1,6 +1,6 @@
 
 p{
-font-family: 'Montserrat', sans-serif;
+font-family: Montserrat;
 font-style: normal;
 font-weight: lighter;
 line-height: 10px;
@@ -19,4 +19,80 @@ font-size: 13px;
 }
 a{
     text-decoration: none;
+}
+@media (min-width: 320px) {
+    .kafedr{
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+}
+@media (min-width: 468px) {
+    p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 13px;
+        }
+        .title{
+            color:white;
+            font-size: 15px;
+            font-weight: 200;
+        }
+        .kafedr{
+            margin-left: 25%;
+            margin-right: 15%;
+        }
+        a{
+            text-decoration: none;
+        }
+}
+
+@media (min-width: 768px) {
+    p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 13px;
+        }
+        .title{
+            color:white;
+            font-size: 15px;
+            font-weight: 200;
+        }
+        .kafedr{
+            margin-left: 25%;
+            margin-right: 15%;
+        }
+        a{
+            text-decoration: none;
+        }
+}
+@media (min-width: 1024px) {
+    p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 10px;
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 13px;
+        }
+        .title{
+            color:white;
+            font-size: 15px;
+            font-weight: 200;
+        }
+        .kafedr{
+            margin-left: 25%;
+            margin-right: 15%;
+        }
+        a{
+            text-decoration: none;
+        }
 }

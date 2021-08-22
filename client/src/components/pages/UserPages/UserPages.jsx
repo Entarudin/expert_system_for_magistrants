@@ -103,8 +103,10 @@ class UserPages extends React.Component {
     render() {
         const{username, fullname,dateofbirth,phonenumber,prevuniversity,speciality} = this.state.user
         const {resultOnUserPage=[]} = this.state
-        
-        
+        const LenghtOnItemsScroll =  Boolean(Array.isArray(resultOnUserPage)) && resultOnUserPage.length <= 2
+        const LenghtOnItemsEmptyScroll = !( resultOnUserPage && Array.isArray(resultOnUserPage) &&  resultOnUserPage.length === 0)
+        console.log(LenghtOnItemsEmptyScroll)
+        console.log("array", resultOnUserPage)
 
 
         return (
@@ -142,10 +144,19 @@ class UserPages extends React.Component {
                     <div className="second_block">
                         <div className="my_result">Мои результаты</div>
                    
-                        <div className ="items_on_result">
-                            { Array.isArray(resultOnUserPage) && !resultOnUserPage.length && (
-                                                <h1> Вы еще не проходили тестирование</h1>
-                                            )}
+                        <div className ="items_on_result" 
+                        style={{
+                            height: LenghtOnItemsEmptyScroll ? "300px" : "730px"
+                        }}
+                        >
+                         
+                            <div 
+                            className="result_on_scroll"
+                            style ={{
+                                overflowY: LenghtOnItemsScroll ? "auto" : "scroll"
+                            }}
+                            >
+       
                                { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
                              resultOnUserPage.map((item,index) =>(
                             <div>
@@ -168,6 +179,11 @@ class UserPages extends React.Component {
                         ))
                         
                         }
+
+                            </div>
+                            {LenghtOnItemsEmptyScroll && (
+                                                <h1> Вы еще не проходили тестирование</h1>
+                                            )}
                         <button onClick={this.testOnEs} className="btn_again"> Пройти тест </button>  
                   
                         </div>

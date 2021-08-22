@@ -131,20 +131,18 @@ handleSubmit(event){
         const response = await fetch('http://localhost:5000/auth/registration', requestOptions);
         const data = await response.json();
         this.setState({succes:data.message, isRegistration:true})
+        this.props.history.push('/auth/login')
         console.log(data);
 
        
     }
 
     render() {
+
       
         return (
         <div className="Main">
-            {
-                Boolean(this.state.isRegistration) &&   
-                    (<Redirect to="auth/login"/>) 
-                 
-            }
+         
         <div className="pole">
             <p className="registration_title"> Регистрация</p>
               
@@ -232,11 +230,13 @@ handleSubmit(event){
     
 
                 </div>
-                <p className="messageOnErrorRegistation">{this.state.errors}</p>
+                <p className="messageOnErrorRegistation"
+                >{this.state.errors}
+                </p>
                 <p className="messageOnServerRegistation">{this.state.succes}</p>
             </div>
         );
     }
 }
 
-export { PostRequestRegistration }; 
+     export default withRouter (PostRequestRegistration ); 

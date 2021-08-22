@@ -106,15 +106,19 @@ color: #000000;
 }
 
 .items_on_result{
-    width: 664px;
-height: 97%;
+    width: 670px;
+height: 730px;
+
 padding-top: 28px;
-padding-left:28px;
 
 background: #FFFFFF;
 border: 1px solid #000000;
 box-sizing: border-box;
 border-radius: 30px;
+}
+.result_on_scroll{
+  max-height: 500px;
+overflow-y:scroll;
 }
 .item_result_answer_on_result{
 width: 391px;

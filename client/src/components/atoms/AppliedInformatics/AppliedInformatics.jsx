@@ -8,7 +8,7 @@ const AppliedInformatics = () => {
         <div class="frame_1">
             <img src="img/n1_img.png" alt="" class="logo_pro_1"/>
             <div className="pro_name_1">
-            <NavLink to='/AppliedInformatics'>Прикладная информатика для высокопроизводительных вычислительных систем</NavLink>
+            <NavLink to='/information_page/AppliedInformaticsPage'>Прикладная информатика для высокопроизводительных вычислительных систем</NavLink>
         </div>
         
     </div>

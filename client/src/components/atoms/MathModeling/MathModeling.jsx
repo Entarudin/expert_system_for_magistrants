@@ -8,7 +8,7 @@ const MathModeling = () => {
         <div class="frame_2">
             <img src="img/n2_img.png" alt="" class="logo_pro_2"/>
             <div className="pro_name_2">
-            <NavLink to='/MathModeling'>Математическое моделирование в инженерных науках</NavLink>
+            <NavLink to='/information_page/MathModelingPage'>Математическое моделирование в инженерных науках</NavLink>
         </div>
         
     </div>

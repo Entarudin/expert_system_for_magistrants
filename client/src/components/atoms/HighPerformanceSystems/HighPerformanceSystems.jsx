@@ -8,7 +8,7 @@ const HighPerformanceSystems = () => {
         <div class="frame_3">
             <img src="img/n3_img.png" alt="" class="logo_pro_3"/>
             <div className="pro_name_3">
-            <NavLink to='/HighPerformanceSystems'>Высокопроизводительные вычислительные системы</NavLink>
+            <NavLink to='/information_page/HighPerformanceSystemsPage'>Высокопроизводительные вычислительные системы</NavLink>
         </div>
         
     </div>

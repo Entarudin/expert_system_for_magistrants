@@ -1,0 +1,589 @@
+.information_programm3{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr3_logo{
+    width: 150px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.programm3_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 260px;
+    margin-top: -160px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm3_number{
+    width: 500px;
+    margin-left: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+.line3{
+    width: 500px;
+    margin-left: 260px;
+}
+.time_31{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_32{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_3{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 250px;
+}
+.n3_g{
+    width: 5px;
+    height: 5px;
+}
+.n3_i{
+    width: 5px;
+    height: 5px;
+}
+.n3_p{
+    width: 5px;
+    height: 5px;
+}
+.target_3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 400px;
+    margin-left: 280px;
+    margin-top: -80px;
+}
+.napr3_girl{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 150px;
+}
+.target_3_1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.napr3_idea{
+width: 130px;
+margin-left: 700px;
+margin-top: -70px;
+}
+.target_3_2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: right;
+}
+.work_students_3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.work_3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.napr3_puzzle{
+    width: 100px;
+    margin-left: 700px;
+    margin-top: -90px;
+}
+@media (min-width: 320px) {
+    .information_programm3{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr3_logo{
+        width: 180px;
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+    .programm3_name{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .programm3_number{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .line3{
+        width: 63%;
+        margin-left: 15%;
+    }
+    .time_31{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_32{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_3{
+        margin-left: 25%;
+        margin-top: 15px;
+        width: 250px;
+    }
+    .target_3{
+        font-size: 14px;
+        line-height: 100%;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .napr3_girl{
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 0px;
+    }
+    .target_3_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .napr3_idea{
+    width: 0px;
+    margin-left: 700px;
+    margin-top: -70px;
+    }
+    .target_3_2{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .work_students_3{
+        font-size: 14px;
+        line-height: 100%;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .work_3{
+        font-size: 14px;
+        line-height: 100%;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .napr3_puzzle{
+        width: 0px;
+        margin-left: 700px;
+        margin-top: -90px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm3{
+        width: 80%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
+    .napr3_logo{
+        width: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .programm3_name{
+        width: 50%;
+        margin-left: 41%;
+        margin-top: -130px;
+        font-size: 13px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm3_number{
+        width: 55%;
+        margin-left: 41%;
+        font-size: 13px;
+        line-height: 100%;
+        text-align: left;
+    
+    }
+    .line3{
+        width: 50%;
+        margin-left: 41%;
+    }
+    .time_31{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_32{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_3{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 30%;
+    }
+    .target_3{
+        font-size: 13px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -65px;
+        text-align: right;
+    }
+    .napr3_girl{
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 110px;
+    }
+    .target_3_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: 15px;
+        text-align: right;
+    }
+    .napr3_idea{
+    width: 0px;
+    margin-left: 100%;
+    margin-top: -70px;
+    }
+    .target_3_2{
+        font-size: 12px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .work_students_3{
+        font-size: 13px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+    .work_3{
+        font-size: 12px;
+        line-height: 18px;
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .napr3_puzzle{
+        width: 0px;
+        margin-left: 700px;
+        margin-top: -90px;
+       
+    }
+}
+@media (min-width: 768px) {
+    .information_programm3{
+        width: 60%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+    .napr3_logo{
+        width: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .programm3_name{
+        width: 50%;
+        margin-left: 35%;
+        margin-top: -130px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm3_number{
+        width: 55%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    
+    }
+    .line3{
+        width: 50%;
+        margin-left: 35%;
+    }
+    .time_31{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_32{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_3{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 30%;
+    }
+    .target_3{
+        font-size: 13px;
+        line-height: 100%;
+        width: 45%;
+        margin-left: 37%;
+        margin-top: -65px;
+        text-align: left;
+    }
+    .napr3_girl{
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 120px;
+    }
+    .target_3_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 45%;
+        margin-left: 37%;
+        margin-top: 15px;
+        text-align: left;
+    }
+    .napr3_idea{
+    width: 0px;
+    margin-left: 10000%;
+    margin-top: -70px;
+    }
+    .target_3_2{
+        font-size: 12px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .work_students_3{
+        font-size: 13px;
+        line-height: 100%;
+        width: 60%;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+    .work_3{
+        font-size: 12px;
+        line-height: 18px;
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .napr3_puzzle{
+        width: 0px;
+        margin-left: 700px;
+        margin-top: -90px;
+       
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm3{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr3_logo{
+        width: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .programm3_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 260px;
+        margin-top: -160px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm3_number{
+        width: 500px;
+        margin-left: 260px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+    
+    }
+    .line3{
+        width: 500px;
+        margin-left: 260px;
+    }
+    .time_31{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_32{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_3{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 250px;
+    }
+    .n3_g{
+        width: 5px;
+        height: 5px;
+    }
+    .n3_i{
+        width: 5px;
+        height: 5px;
+    }
+    .n3_p{
+        width: 5px;
+        height: 5px;
+    }
+    .target_3{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        width: 400px;
+        margin-left: 280px;
+        margin-top: -80px;
+    }
+    .napr3_girl{
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 150px;
+    }
+    .target_3_1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        width: 400px;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+    .napr3_idea{
+    width: 130px;
+    margin-left: 700px;
+    margin-top: -70px;
+    }
+    .target_3_2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        width: 600px;
+        margin-left: 200px;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .work_students_3{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .work_3{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        width: 600px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .napr3_puzzle{
+        width: 100px;
+        margin-left: 700px;
+        margin-top: -90px;
+    }
+}

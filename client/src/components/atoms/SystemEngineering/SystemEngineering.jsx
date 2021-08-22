@@ -8,7 +8,7 @@ const SystemEngineering = () => {
         <div class="frame_10">
             <img src="img/n10_img.png" alt="" class="logo_pro_10"/>
             <div className="pro_name_10">
-            <NavLink to='/SystemEngineering'>Системный инжиниринг</NavLink>
+            <NavLink to='/information_page/SystemEngineeringPage'>Системный инжиниринг</NavLink>
         </div>
         
     </div>

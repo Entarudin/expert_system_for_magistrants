@@ -1,0 +1,653 @@
+.information_programm7{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr7_logo{
+    width: 200px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.programm7_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: -150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm7_number{
+    width: 500px;
+margin-left: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+}
+.line7{
+    width: 500px;
+    margin-left: 250px;
+}
+.time71{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time72{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_7{
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 250px;
+}
+.n7_w{
+    width: 10px;
+    height: 3px;
+}
+.n7_b{
+    width: 10px;
+    height: 3px;
+}
+.n7_f{
+    width: 10px;
+    height: 3px;
+}
+.n7_g{
+    width: 10px;
+    height: 3px;
+}
+.napr7_web{
+    margin-left: 750px;
+    margin-top: -150px;
+    width: 100px;
+}
+.target_7{
+    width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: -80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.napr7_folder{
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 80px;  
+}
+.napr7_gear{
+    margin-left: 160px;
+    margin-top: 80px;
+    width: 80px;  
+}
+.target_7_1{
+    width: 600px;
+    margin-left: 255px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.base_courses_7{
+    width: 500px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.c_7{
+    width: 300px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Montserrat;
+}
+.napr7_boy{
+    margin-left: 350px;
+    margin-top: -150px;
+    width: 180px;  
+}
+.special_subjects_7{
+    width: 300px;
+    margin: 0;
+    margin-left: 550px;
+    margin-top: -170px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.s_7{
+    width: 300px;
+    margin-left: 530px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Montserrat;
+}
+@media (min-width: 320px) {
+    .information_programm7{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr7_logo{
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    .programm7_name{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .programm7_number{
+        width: 63%;
+        margin-left: 15%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .line7{
+        width: 63%;
+        margin-left: 15%;
+    }
+    .time71{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time72{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_7{
+        margin-left: 25%;
+        margin-top: 10px;
+        width: 250px;
+        text-align: center;
+    }
+    .napr7_web{
+        margin-left: 750px;
+        margin-top: 0px;
+        width: 0px;
+    }
+    .target_7{
+        width: 63%;
+        margin: 0;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .napr7_folder{
+        margin-left: 40px;
+        margin-top: 80px;
+        width: 0px;  
+    }
+    .napr7_gear{
+        margin-left: 160px;
+        margin-top: 80px;
+        width: 0px;  
+    }
+    .target_7_1{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 12px;
+        line-height: 100%;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+    .base_courses_7{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .c_7{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .napr7_boy{
+        margin-left: 350px;
+        margin-top: -150px;
+        width: 0px;  
+    }
+    .special_subjects_7{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .s_7{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-bottom: 25px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm7{
+        width: 80%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
+    .napr7_logo{
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .programm7_name{
+        width: 63%;
+        margin-left: 35%;
+        margin-top: -120px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm7_number{
+        width: 63%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    
+    }
+    .line7{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time71{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time72{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_7{
+        margin-left: 5%;
+        margin-top: 40px;
+        width: 30%;
+    }
+    .napr7_web{
+        margin-left: 750px;
+        margin-top: -150px;
+        width: 0px;
+    }
+    .target_7{
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -60px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+    }
+    .napr7_folder{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 50px;  
+    }
+    .napr7_gear{
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 50px;  
+    }
+    .target_7_1{
+        width: 60%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .base_courses_7{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .c_7{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .napr7_boy{
+        margin-left: 350px;
+        margin-top: -150px;
+        width: 0px;  
+    }
+    .special_subjects_7{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .s_7{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-bottom: 25px;
+    }
+}
+@media (min-width: 768px) {
+    .information_programm7{
+        width: 70%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr7_logo{
+        width: 25%;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    .programm7_name{
+        width: 63%;
+        margin-left: 30%;
+        margin-top: -120px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .programm7_number{
+        width: 63%;
+        margin-left: 30%;
+        font-size: 14px;
+        line-height: 100%;
+    
+    }
+    .line7{
+        width: 63%;
+        margin-left: 30%;
+    }
+    .time71{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time72{
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .time_7{
+        margin-left: 20px;
+        margin-top: 40px;
+        width: 63%;
+    }
+    .napr7_web{
+        margin-left: 750px;
+        margin-top: -150px;
+        width: 0px;
+    }
+    .target_7{
+        width: 63%;
+        margin-left: 30%;
+        margin-top: -50px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .napr7_folder{
+        margin-left: 20px;
+        margin-top: 60px;
+        width: 70px;  
+    }
+    .napr7_gear{
+        margin-left: 100px;
+        margin-top: 60px;
+        width: 70px;   
+    }
+    .target_7_1{
+        width: 63%;
+        margin-left: 30%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-top: 10px;
+    }
+    .base_courses_7{
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 80px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .c_7{
+        width: 45%;
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 100%;
+        margin-bottom: 40px;
+    }
+    .napr7_boy{
+        margin-left: 350px;
+        margin-top: -150px;
+        width: 0px;  
+    }
+    .special_subjects_7{
+        width: 45%;
+        margin-left: 50%;
+        margin-top: -170px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .s_7{
+        width: 40%;
+        margin-left: 50%;
+        font-size: 14px;
+        line-height: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm7{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr7_logo{
+        width: 200px;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    .programm7_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -150px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm7_number{
+        width: 500px;
+    margin-left: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    
+    }
+    .line7{
+        width: 500px;
+        margin-left: 250px;
+    }
+    .time71{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time72{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_7{
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 250px;
+    }
+    .n7_w{
+        width: 10px;
+        height: 3px;
+    }
+    .n7_b{
+        width: 10px;
+        height: 3px;
+    }
+    .n7_f{
+        width: 10px;
+        height: 3px;
+    }
+    .n7_g{
+        width: 10px;
+        height: 3px;
+    }
+    .napr7_web{
+        margin-left: 750px;
+        margin-top: -150px;
+        width: 100px;
+    }
+    .target_7{
+        width: 500px;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -80px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .napr7_folder{
+        margin-left: 40px;
+        margin-top: 80px;
+        width: 80px;  
+    }
+    .napr7_gear{
+        margin-left: 160px;
+        margin-top: 80px;
+        width: 80px;  
+    }
+    .target_7_1{
+        width: 600px;
+        margin-left: 255px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    .base_courses_7{
+        width: 500px;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 80px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .c_7{
+        width: 300px;
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: Montserrat;
+    }
+    .napr7_boy{
+        margin-left: 350px;
+        margin-top: -150px;
+        width: 180px;  
+    }
+    .special_subjects_7{
+        width: 300px;
+        margin: 0;
+        margin-left: 550px;
+        margin-top: -170px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .s_7{
+        width: 300px;
+        margin-left: 530px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: Montserrat;
+    }
+}

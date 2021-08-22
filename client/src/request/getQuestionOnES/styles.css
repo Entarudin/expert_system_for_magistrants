@@ -88,7 +88,7 @@ margin-bottom: 50px;
 cursor: pointer;
 }
 .btn:hover{
-    background-color:#006ca3;
+    background:#006ca3;
 }
 
 
@@ -120,6 +120,7 @@ color: #000000;
 
 .items_top_three{
     display: block;
+    margin-top: 117px;
 }
 
 .item_lesson_type_persent{

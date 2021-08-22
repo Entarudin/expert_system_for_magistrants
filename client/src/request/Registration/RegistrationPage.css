@@ -189,7 +189,12 @@
         border:none;
         margin-left: 13%;
         margin-top: 5%;
+        cursor: pointer;
     }
+    .registration_button:hover{
+        background-color:#006ca3;
+    }
+
     .messageOnErrorRegistation{
         font-size: 13px;
         /* line-height: 30px; */

@@ -8,7 +8,7 @@ const AutomatedSystems = () => {
         <div class="frame_9">
             <img src="img/n9_img.png" alt="" class="logo_pro_9"/>
             <div className="pro_name_9">
-            <NavLink to='/AutomatedSystems'>Автоматизированные информационные системы</NavLink>
+            <NavLink to='/information_page/AutomatedSystemsPage'>Автоматизированные информационные системы</NavLink>
         </div>
         
     </div>

@@ -24,6 +24,10 @@
     border-radius: 20px;
     margin-left: 60%;
     margin-top: 5%;
+    cursor: pointer;
+}
+.MainButton:hover{
+    background:#66a6c7;
 }
 @media (min-width: 320px) {
     .firstSection{

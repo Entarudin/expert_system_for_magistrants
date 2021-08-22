@@ -252,9 +252,9 @@ class RequestGetQuestionES extends React.Component {
                     
                               <img src={"http://127.0.0.1:6969/api/get_img_by_id?img_id="+ this.state.id_img}  alt="logo" className="img_on_itog" />
                              <div className="items_top_three">
-                                {topThreeAndImg.map((item) =>(
+                                {topThreeAndImg.map((item) => Boolean(item.lesson_type)&&(
                         <div className="item_lesson_type_persent">
-                            
+                          
                                 {item.lesson_type}: {item.per_cent}
                         
 
@@ -293,7 +293,8 @@ class RequestGetQuestionES extends React.Component {
                                style={{
                             
                                 opacity:  !(answersLenghtOnFirstStep  === resultArray.length) ? 0.5 : 1,
-                                pointerEvents:  answersLenghtOnFirstStep  === resultArray.length ? "auto" : "none"
+                                pointerEvents:  answersLenghtOnFirstStep  === resultArray.length ? "auto" : "none",
+                                
                             }}
                                >
                                    Продолжить
@@ -302,12 +303,13 @@ class RequestGetQuestionES extends React.Component {
 
 
 
-                        {step === 3 && ( 
+                        {step === 3 && (
+
                              <button 
                              onClick={this.requestResult}
                               className="but"
                               >
-                            Отправить 3 шаг
+                         Узнать о направлениях подготовки
                             </button>
                             )  }
                         <div>

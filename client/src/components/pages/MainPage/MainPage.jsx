@@ -1,12 +1,11 @@
+import Header from '../../organisms/Header/Header';
 import MainFirstSection from '../../organisms/MainFirstSection/MainFirstSection';
 import MainSecondSection from '../../organisms/MainSecondSection/MainSecondSection';
-import Header from '../../organisms/Header/Header';
 import Footer from '../../organisms/Footer/Footer';
-
 const MainPage = () => {
     return (
       <>
-      <Header />
+      <Header/>
       <MainFirstSection/>
       <MainSecondSection/>
       <Footer/>

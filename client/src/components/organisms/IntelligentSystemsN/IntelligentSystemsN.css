@@ -1,0 +1,625 @@
+.information_programm4{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr4_logo{
+    width: 200px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.programm4_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: -150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm4_number{
+    width: 500px;
+margin-left: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+}
+.line4{
+    width: 550px;
+    margin-left: 250px;
+}
+.time41{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time42{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_4{
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 250px;
+}
+.n4_u{
+    width: 3px;
+    height: 3px;
+}
+.n4_c{
+    width: 3px;
+    height: 3px;
+}
+.n4_s{
+    width: 3px;
+    height: 3px;
+}
+.napr4_univesity{
+    width: 80px;
+    margin-left: 270px;
+    margin-top: -100px;
+}
+.target_4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 300px;
+    text-align: right;
+    margin-left: 500px;
+    margin-top: -80px;
+    
+}
+.target_4_1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 18px;
+    width: 450px;
+    text-align: right;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.napr4_computer{
+    width: 100px;
+    margin-left: 50px;
+}
+.base_course_4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 250px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.line_small4{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+.b_c_list_4{
+    width: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.napr4_students{
+    width: 200px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.work_4{
+    width: 300px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+@media (min-width: 320px) {
+    .information_programm4{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr4_logo{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+    .programm4_name{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .programm4_number{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    
+    }
+    .line4{
+        width: 63%;
+        margin-left: 15%;
+    }
+    .time41{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time42{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_4{
+        margin-left: 7%;
+        margin-top: 20px;
+        width: 250px;
+    }
+    .napr4_univesity{
+        width: 0px;
+        margin-left: 270px;
+        margin-top: -100px;
+    }
+    .target_4{
+        font-size: 14px;
+        line-height: 100%;
+        width: 63%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 10px;
+        
+    }
+    .target_4_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .napr4_computer{
+        width: 0px;
+        margin-left: 50px;
+    }
+    .base_course_4{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .line_small4{
+        width: 0px;
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    .b_c_list_4{
+        width: 63%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    .napr4_students{
+        width: 0px;
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+    .work_4{
+        width: 63%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm4{
+        width: 85%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+    .napr4_logo{
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .programm4_name{
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -110px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm4_number{
+        width: 60%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line4{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time41{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;  
+    }
+    .time42{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;  
+    }
+    .time_4{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 200px;
+    }
+    .napr4_univesity{
+        width: 0px;
+    }
+    .target_4{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: right;
+        margin-left: 30%;
+        margin-top: -40px;
+        
+    }
+    .target_4_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 50%;
+        text-align: right;
+        margin-left: 42%;
+        margin-top: 10px;
+    }
+    .napr4_computer{
+        width: 70px;
+        margin-top: -15px;
+    }
+    .base_course_4{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .line_small4{
+        width: 0px;
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    .b_c_list_4{
+        width: 40%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .napr4_students{
+        width: 0px;
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+    .work_4{
+        width: 40%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+        margin-left: 50%;
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 768px) {
+    .information_programm4{
+        width: 65%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 17%;
+    }
+    .napr4_logo{
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .programm4_name{
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -110px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm4_number{
+        width: 60%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line4{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time41{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;  
+    }
+    .time42{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;  
+    }
+    .time_4{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 200px;
+    }
+    .napr4_univesity{
+        width: 0px;
+    }
+    .target_4{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: right;
+        margin-left: 30%;
+        margin-top: -40px;
+        
+    }
+    .target_4_1{
+        font-size: 12px;
+        line-height: 100%;
+        width: 50%;
+        text-align: right;
+        margin-left: 42%;
+        margin-top: 10px;
+    }
+    .napr4_computer{
+        width: 70px;
+        margin-top: -15px;
+    }
+    .base_course_4{
+        font-size: 12px;
+        line-height: 100%;
+        width: 63%;
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .line_small4{
+        width: 0px;
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    .b_c_list_4{
+        width: 40%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .napr4_students{
+        width: 0px;
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+    .work_4{
+        width: 40%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+        margin-left: 50%;
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm4{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr4_logo{
+        width: 200px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm4_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -150px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm4_number{
+        width: 500px;
+    margin-left: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    
+    }
+    .line4{
+        width: 550px;
+        margin-left: 250px;
+    }
+    .time41{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time42{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_4{
+        margin-left: 30px;
+        margin-top: 60px;
+        width: 250px;
+    }
+    .n4_u{
+        width: 3px;
+        height: 3px;
+    }
+    .n4_c{
+        width: 3px;
+        height: 3px;
+    }
+    .n4_s{
+        width: 3px;
+        height: 3px;
+    }
+    .napr4_univesity{
+        width: 80px;
+        margin-left: 270px;
+        margin-top: -100px;
+    }
+    .target_4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        width: 300px;
+        text-align: right;
+        margin-left: 500px;
+        margin-top: -80px;
+        
+    }
+    .target_4_1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:400;
+        font-size: 16px;
+        line-height: 18px;
+        width: 450px;
+        text-align: right;
+        margin-left: 350px;
+        margin-top: 10px;
+    }
+    .napr4_computer{
+        width: 100px;
+        margin-left: 50px;
+    }
+    .base_course_4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:600;
+        font-size: 16px;
+        line-height: 18px;
+        width: 250px;
+        text-align: left;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    .line_small4{
+        width: 400px;
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    .b_c_list_4{
+        width: 250px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .napr4_students{
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+    .work_4{
+        width: 300px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        margin-left: 500px;
+        margin-top: -200px;
+    }
+}

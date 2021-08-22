@@ -1,0 +1,696 @@
+.information_programm8{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr8_logo{
+    width: 150px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.programm8_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 260px;
+    margin-top: -160px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm8_number{
+    width: 500px;
+    margin-left: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+.line8{
+    width: 500px;
+    margin-left: 260px;
+}
+.time_81{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_82{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_8{
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.target_8{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+
+.target_8_1{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 500px;
+}
+.special_subjects_8{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 400px;
+}
+.s_8{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 20px;   
+    width: 400px;  
+}
+.n8_p{
+    width: 10px;
+    height: 10px;
+}
+.napr8_phone{
+    width: 90px;
+    margin-left: 550px;
+    margin-top: -50px;
+}
+.su_8{
+    width: 200px;
+}
+.n8_f{
+    width: 10px;
+    height: 0px
+}
+.napr8_folder{
+    width: 100px;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+.n8_b{
+    height: 5px;
+    width: 5px;
+}
+.napr8_boy{
+    width: 200px;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+.area_8{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 40px;   
+    width: 500px;  
+}
+.area_main_8{
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 40px;   
+    width: 700px;  
+    margin-top: 20px; 
+}
+@media (min-width: 320px) {
+    .information_programm8{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr8_logo{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+    .programm8_name{
+        width: 63%;
+        margin-left: 20%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .programm8_number{
+        width: 63%;
+        margin-left: 20%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    
+    }
+    .line8{
+        width: 63%;
+        margin-left: 20%;
+    }
+    .time_81{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_82{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_8{
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .target_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 0%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .target_8_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .special_subjects_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .s_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 60px;   
+        width: 80%;  
+    }
+    .n8_p{
+        width: 10px;
+        height: 10px;
+    }
+    .napr8_phone{
+        width: 0px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+    .su_8{
+        width: 80%;
+    }
+    .n8_f{
+        width: 10px;
+        height: 0px
+    }
+    .napr8_folder{
+        width: 0px;
+        margin-left: 490px;
+        margin-top: 30px;
+    }
+    .n8_b{
+        height: 5px;
+        width: 5px;
+    }
+    .napr8_boy{
+        width: 0px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+    .area_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 23%;   
+        width: 80%;  
+    }
+    .area_main_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 18%;   
+        width: 63%;  
+        margin-top: 20px; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm8{
+        width: 60%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+    .napr8_logo{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+    .programm8_name{
+        width: 63%;
+        margin-left: 20%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .programm8_number{
+        width: 63%;
+        margin-left: 20%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    
+    }
+    .line8{
+        width: 63%;
+        margin-left: 20%;
+    }
+    .time_81{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_82{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_8{
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .target_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 0%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .target_8_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .special_subjects_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .s_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 60px;   
+        width: 80%;  
+    }
+    .n8_p{
+        width: 10px;
+        height: 10px;
+    }
+    .napr8_phone{
+        width: 0px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+    .su_8{
+        width: 80%;
+    }
+    .n8_f{
+        width: 10px;
+        height: 0px
+    }
+    .napr8_folder{
+        width: 0px;
+        margin-left: 490px;
+        margin-top: 30px;
+    }
+    .n8_b{
+        height: 5px;
+        width: 5px;
+    }
+    .napr8_boy{
+        width: 0px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+    .area_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 23%;   
+        width: 80%;  
+    }
+    .area_main_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 18%;   
+        width: 63%;  
+        margin-top: 20px; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .information_programm8{
+        width: 45%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 25%;
+    }
+    .napr8_logo{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+    .programm8_name{
+        width: 63%;
+        margin-left: 20%;
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .programm8_number{
+        width: 63%;
+        margin-left: 20%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    
+    }
+    .line8{
+        width: 63%;
+        margin-left: 20%;
+    }
+    .time_81{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_82{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_8{
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+    .target_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 0%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .target_8_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .special_subjects_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+    }
+    .s_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 60px;   
+        width: 80%;  
+    }
+    .n8_p{
+        width: 10px;
+        height: 10px;
+    }
+    .napr8_phone{
+        width: 0px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+    .su_8{
+        width: 80%;
+    }
+    .n8_f{
+        width: 10px;
+        height: 0px
+    }
+    .napr8_folder{
+        width: 0px;
+        margin-left: 490px;
+        margin-top: 30px;
+    }
+    .n8_b{
+        height: 5px;
+        width: 5px;
+    }
+    .napr8_boy{
+        width: 0px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+    .area_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 23%;   
+        width: 80%;  
+    }
+    .area_main_8{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 18%;   
+        width: 63%;  
+        margin-top: 20px; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm8{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr8_logo{
+        width: 150px;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .programm8_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 260px;
+        margin-top: -160px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm8_number{
+        width: 500px;
+        margin-left: 260px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+    
+    }
+    .line8{
+        width: 500px;
+        margin-left: 260px;
+    }
+    .time_81{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_82{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_8{
+        margin-left: 40px;
+        margin-top: 90px;
+    }
+    .target_8{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 220px;
+        margin-top: -100px;
+    }
+    
+    .target_8_1{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 220px;
+        margin-top: 10px;
+        width: 500px;
+    }
+    .special_subjects_8{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 40px;
+        margin-top: 60px;
+        width: 400px;
+    }
+    .s_8{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 20px;   
+        width: 400px;  
+    }
+    .n8_p{
+        width: 10px;
+        height: 10px;
+    }
+    .napr8_phone{
+        width: 90px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+    .su_8{
+        width: 200px;
+    }
+    .n8_f{
+        width: 10px;
+        height: 0px
+    }
+    .napr8_folder{
+        width: 100px;
+        margin-left: 490px;
+        margin-top: 30px;
+    }
+    .n8_b{
+        height: 5px;
+        width: 5px;
+    }
+    .napr8_boy{
+        width: 200px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+    .area_8{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 40px;   
+        width: 500px;  
+    }
+    .area_main_8{
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 40px;   
+        width: 700px;  
+        margin-top: 20px; 
+    }
+}

@@ -1,0 +1,687 @@
+.information_programm6{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr6_logo{
+    width: 160px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.programm6_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm6_number{
+    width: 500px;
+margin-left: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+}
+.line6{
+    width: 550px;
+    margin-left: 250px;
+}
+.time61{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time62{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_6{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 250px;
+}
+.way_6{
+    width: 500px;
+    margin: 0;
+    margin-left: 300px;
+    margin-top: -40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+}
+.n6_b_p{
+    height: 3px;
+}
+.n6_p{
+    height: 3px;
+}
+.n6_g{
+    height: 3px;
+}
+.napr6_boy_puzzles{
+    margin-left: 320px;
+}
+.target_6{
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.target_6_1{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+}
+.w_l_6{
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;    
+}
+.napr6_gear{
+    width: 90px;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+.direction_6{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.direction_6_1{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+}
+.napr6_puzzles{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: -80px;
+}
+.direction_6_2{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;   
+}
+ @media (min-width: 320px) {
+    .information_programm6{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr6_logo{
+        width: 35%;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+    .programm6_name{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .programm6_number{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    .line6{
+        width: 63%;
+        margin-left: 17%;
+    }
+    .time61{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time62{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_6{
+        margin-left: 15%;
+        margin-top: 10px;
+        width: 63%;
+    }
+    .way_6{
+        width: 63%;
+        margin: 0;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 0px;
+        line-height: 100%;
+        text-align: center;
+        font-weight: normal;
+    }
+    .napr6_boy_puzzles{
+        margin-left: 320px;
+        width: 0;
+    }
+    .target_6{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .target_6_1{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center; 
+    }
+
+    .w_l_6{
+        width: 63%;
+        margin-left: 0%;
+        margin-top: -130px;
+        font-size: 0px;
+        line-height: 100%;    
+    }
+    .napr6_gear{
+        width: 0px;
+        margin-left: 750px;
+        margin-top: -50px;
+    }
+    .direction_6{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .direction_6_1{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .napr6_puzzles{
+        width: 0px;
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .direction_6_2{
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 20px;   
+    }
+}
+@media (min-width: 468px) {
+    .information_programm6{
+        width: 85%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+    .napr6_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm6_name{
+        width: 63%;
+        margin-left: 35%;
+        margin-top: -100px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm6_number{
+        width: 63%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line6{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time61{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .time62{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .time_6{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 30%;
+    }
+    .way_6{
+        width: 63%;
+        margin-left: 30%;
+        margin-top: -50px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+    }
+    .napr6_boy_puzzles{
+        margin-left: 0px;
+    }
+    .target_6{
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .target_6_1{
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+        margin-bottom: 10px;
+    }
+    .w_l_6{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -110px;
+        font-size: 12px;
+        line-height: 100%;    
+    }
+    .napr6_gear{
+        width: 0px;
+        margin-left: 750px;
+        margin-top: -50px;
+    }
+    .direction_6{
+        width: 20%;
+        margin-left: 65%;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+    }
+    
+    .direction_6_1{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+    }
+    .napr6_puzzles{
+        width: 0px;
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .direction_6_2{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;  
+    }
+}
+@media (min-width: 768px) {
+    .information_programm6{
+        width: 60%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+    .napr6_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm6_name{
+        width: 63%;
+        margin-left: 35%;
+        margin-top: -100px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm6_number{
+        width: 63%;
+        margin-left: 35%;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line6{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time61{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .time62{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .time_6{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 30%;
+    }
+    .way_6{
+        width: 63%;
+        margin-left: 30%;
+        margin-top: -50px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+    }
+    .napr6_boy_puzzles{
+        margin-left: 0px;
+    }
+    .target_6{
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .target_6_1{
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+        margin-bottom: 10px;
+    }
+    .w_l_6{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -110px;
+        font-size: 12px;
+        line-height: 100%;    
+    }
+    .napr6_gear{
+        width: 0px;
+        margin-left: 750px;
+        margin-top: -50px;
+    }
+    .direction_6{
+        width: 20%;
+        margin-left: 65%;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: right;
+    }
+    
+    .direction_6_1{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+    }
+    .napr6_puzzles{
+        width: 0px;
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .direction_6_2{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;  
+    }
+    
+}
+@media (min-width: 1024px) {
+    .information_programm6{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr6_logo{
+        width: 160px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm6_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -120px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm6_number{
+        width: 500px;
+    margin-left: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    
+    }
+    .line6{
+        width: 550px;
+        margin-left: 250px;
+    }
+    .time61{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time62{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_6{
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 250px;
+    }
+    .way_6{
+        width: 500px;
+        margin: 0;
+        margin-left: 300px;
+        margin-top: -40px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+    }
+    .n6_b_p{
+        height: 3px;
+    }
+    .n6_p{
+        height: 3px;
+    }
+    .n6_g{
+        height: 3px;
+    }
+    .napr6_boy_puzzles{
+        margin-left: 320px;
+        width: 200px;
+    }
+    .target_6{
+        width: 400px;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+            }
+    .target_6_1{
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px; 
+    }
+    .w_l_6{
+        width: 300px;
+        margin-left: 500px;
+        margin-top: -150px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;    
+    }
+    .napr6_gear{
+        width: 90px;
+        margin-left: 750px;
+        margin-top: -50px;
+    }
+    .direction_6{
+        width: 500px;
+        margin-left: 300px;
+        margin-top: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+    }
+    
+    .direction_6_1{
+        width: 500px;
+        margin-left: 300px;
+        margin-top: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+    }
+    .napr6_puzzles{
+        width: 150px;
+        margin-left: 50px;
+        margin-top: -80px;
+    }
+    .direction_6_2{
+        width: 500px;
+        margin-left: 300px;
+        margin-top: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;   
+    }
+} 

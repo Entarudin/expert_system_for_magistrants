@@ -6,7 +6,7 @@ const AppliedInformaticsN = () => {
     <>
       <div class="information_programm1">
 
-              <img src="img/n1_img.png" alt="" class="logo_programm1"/>  
+              <img src="/img/n1_img.png" alt="" class="logo_programm1"/>  
 
           
           < div className="name">
@@ -23,7 +23,7 @@ const AppliedInformaticsN = () => {
 
          <div className="block_info_1_1">
              <p className="bi11">Вас обучат разработке системного и прикладного программного обеспечения с помощью современных суперкомпьютерных технологий. </p>
-          <div className="n1_c"> <img src="icons/napr1_computer.png" alt="" className="napr1_computer"/> </div>
+          <div className="n1_c"> <img src="/icons/napr1_computer.png" alt="" className="napr1_computer"/> </div>
             </div>
          <div class="block_info_1_2">
              <p className="bi12">Выпускники программы смогут работать руководителями или разработчиками программного обеспечения в компаниях в области разработки высокопроизводительных вычислительных систем и программного обеспечения для них.</p>
@@ -31,7 +31,7 @@ const AppliedInformaticsN = () => {
       
       
       <div className="n1_d">
-      <img src="icons/napr1_diagramma.png" alt="" className="napr1_diagramma"/></div> 
+      <img src="/icons/napr1_diagramma.png" alt="" className="napr1_diagramma"/></div> 
         <div className="base_course">
             <p className="bs">Базовые курсы направления:</p>
           </div> 
@@ -44,7 +44,7 @@ const AppliedInformaticsN = () => {
             
         </div>
       <div className="n1_g">
-      <img src="icons/napr1_girl.png" alt="" className="napr1_girl"/>
+      <img src="/icons/napr1_girl.png" alt="" className="napr1_girl"/>
       </div>
       
       

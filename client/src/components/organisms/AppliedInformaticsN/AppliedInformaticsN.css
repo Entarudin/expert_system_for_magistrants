@@ -442,103 +442,145 @@ line-height: 18px;
 }
 @media (min-width: 1024px) {
     .information_programm1{
-        width: 60%;
-        height: auto;
-        margin-left: 20%;
+        width: 900px;
+        height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 15%;
     }
     .logo_programm1{
         margin-left: 2%;
         margin-top: 3%;
-        width: 30%;
         }
     .programm1_name{
-        width: 63%;
-        margin-left: 35%;
-        margin-top: -15%;
+        width: 500px;
+        margin: 0;
+        margin-left: 350px;
+        margin-top: -150px;
+        font-family: Montserrat;
+        font-style: normal;
         font-weight: 600;
-        font-size: 13px;
-        line-height: 100%;
-        text-align: left;
+        font-size: 20px;
+        line-height: 20px;
     }
     .programm1_number{
-        width: 63%;
-    margin-left: 35%;
+        width: 500px;
+    margin-left: 350px;
+    font-family: Montserrat;
+    font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;    
-    text-align: left;
+    font-size: 18px;
+    line-height: 18px;
+    
     }
     .line1{
-        width: 60%;
-        margin-left: 35%;
+        width: 500px;
+        margin-left: 350px;
     }
     .time1{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
         font-weight: 500;
-        font-size: 10px;
-       
+        font-size: 16px;
+        line-height: 18px;
     }
     .time2{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
         font-weight: 500;
-        font-size: 10px;
+        font-size: 16px;
+        line-height: 18px;
     }
     .time{
-        margin-left: 4%;
-        margin-top: 6%;
+        margin-left: 40px;
+        margin-top: 30px;
     }
     .bi11{
-        font-size: 12px;
-        width: 63%;
-        margin-left: 35%;
-        margin-top: -70px;
-        text-align: left;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+        width: 450px;
+        margin-left: 300px;
+        margin-top: -40px;
     }
     .napr1_computer{
-        margin-left: 87%;
-        margin-top: -10px;
-        width: 0%;
+        margin-left: 750px;
+        margin-top: -30px;
     }
     .napr1_diagramma{
-        margin-left: 5%;
-        width: 20%;
-        margin-top: -70px;
+        margin-left: 40px;
+        width: 200px;
+        margin-top: -125px;
     }
     .bi12{
-        font-size: 12px;
-        width:60%;
-        margin-left: 35%;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+        width: 480px;
+        margin-left: 280px;
         margin-top: 10px;
-        text-align: left;
+    }
+    .n1_c{
+        height: 10px;
+    }
+    .n1_d{
+        height: 20px;
     }
     .bs{
+        margin: 0;
+        font-family: Montserrat;
+        font-style: normal;
         font-weight: 600;
-        font-size: 14px;   
-        text-align: right;        
+        font-size: 20px;
+        line-height: 28px;
+        text-align: right;
+        color: #000000;
+        
+    
     }
     .base_course{
-        width: 90%;
-        margin-left: -25%;
-        margin-top: 15px;  
-        text-align: right;  
+        width: 350px;
+        margin-left: 300px;
+        margin-top: 15px;
+    
     }
     .courses{
-        margin-top: 50px;
+        margin-top: 30px;
     }
-    .c
-    {
-        width: 50%;
-        font-size: 12px;
-        margin-left: 5%;     
-        text-align: left;
-        line-height: 200%;  
+    .c{        
+        width: 700px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #000000;
+        margin: 0;
+        margin-left: 40px;     
         
     }
     .n1_g{
-        width: 0px;
-        margin-left: 60%;
-        margin-top: -150px;
-        margin-bottom: 50px;
+        width: 10px;
+        margin-left: 720px;
+        margin-top: -120px;
     }
     .napr1_girl{
-        width:150px;
+        width: 150px;
     }
 }

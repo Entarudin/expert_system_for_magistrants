@@ -72,7 +72,7 @@ color: #E4DFDF;
         left: 40%;
         top: 3%;
         
-        font-family: 'Montserrat';
+        font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 55%;
@@ -113,9 +113,9 @@ color: #E4DFDF;
         position: absolute;
         width: 25%;
         left: 36%;
-        top: 5.5%;
+        top: 4.5%;
         
-        font-family: 'Montserrat';
+        font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 70%;
@@ -126,9 +126,9 @@ color: #E4DFDF;
         position: absolute;    
         width: 28%;        
         left: 63%;
-        top: 5.5%;
+        top: 4.5%;
     
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 70%;
@@ -158,7 +158,7 @@ color: #E4DFDF;
         left: 40%;
         top: 7%;
         
-        font-family: 'Montserrat';
+        font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 100%;
@@ -171,7 +171,7 @@ color: #E4DFDF;
         left: 66%;
         top: 7%;
     
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 100%;

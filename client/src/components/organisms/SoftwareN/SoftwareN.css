@@ -1,0 +1,520 @@
+.information_programm5{
+    width: 900px;
+    height: 650px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.napr5_logo{
+    width: 200px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.programm5_name{
+    width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: -150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.programm5_number{
+    width: 500px;
+margin-left: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+}
+.line5{
+    width: 550px;
+    margin-left: 250px;
+}
+.time51{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time52{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+.time_5{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 250px;
+}
+.n5_i{
+    width: 50px;
+    height: 3px;
+}
+.n5_g{
+    width: 50px;
+    height: 3px;  
+}
+.napr5_idea{
+    margin-left: 300px;
+    margin-top: -80px;
+}
+.work_5{
+    margin: 0;
+    color:black;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: -70px;
+}
+.target_5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.target_5_1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 600px;
+}
+.target_5_2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 600px;
+}
+.napr5_girl{
+    width: 200px;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+@media (min-width: 320px) {
+    .information_programm5{
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .napr5_logo{
+        width: 35%;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+    .programm5_name{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .programm5_number{
+        width: 63%;
+        margin-left: 15%;
+        font-size: 14px;
+        line-height: 100%;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    .line5{
+        width: 63%;
+        margin-left: 17%;
+    }
+    .time51{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time52{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .time_5{
+        margin-left: 15%;
+        margin-top: 15px;
+        width: 63%;
+    }
+    .napr5_idea{
+        margin-left: 300px;
+        margin-top: -80px;
+        width: 0;
+    }
+    .work_5{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        width: 63%;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .target_5{
+        font-size: 14px;
+        line-height: 100%;
+        margin-left: 15%;
+        margin-top: 10px;
+        width: 63%;
+        text-align: center;
+        
+    }
+    .target_5_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 15%;
+        margin-top: 15px;
+        width: 63%;
+        text-align: center;
+    }
+    .target_5_2{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 15%;
+        margin-top: 15px;
+        width: 63%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .napr5_girl{
+        width: 200px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+}
+@media (min-width: 468px) {
+    .information_programm5{
+        width: 85%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+    .napr5_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm5_name{
+        width: 63%;
+        margin-left: 35%;
+        margin-top: -110px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm5_number{
+        width: 63%;
+        margin-left: 35%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line5{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time51{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+    }
+    .time52{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+    }
+    .time_5{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 30%;
+    }
+    .napr5_idea{
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+    .work_5{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+        width: 55%;
+        margin-left: 40%;
+        margin-top: -50px;
+    }
+    .target_5{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-align: left;
+        
+    }
+    .target_5_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 80%;
+        text-align: left;
+    }
+    .target_5_2{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 80%;
+        text-align: left;
+    }
+    .napr5_girl{
+        width: 0px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+}
+@media (min-width: 768px) {
+    .information_programm5{
+        width: 60%;
+        height: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+    .napr5_logo{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm5_name{
+        width: 63%;
+        margin-left: 35%;
+        margin-top: -110px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .programm5_number{
+        width: 63%;
+        margin-left: 35%;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left;    
+    }
+    .line5{
+        width: 60%;
+        margin-left: 35%;
+    }
+    .time51{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+    }
+    .time52{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: left; 
+    }
+    .time_5{
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 30%;
+    }
+    .napr5_idea{
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+    .work_5{
+        font-size: 12px;
+        line-height: 100%;
+        text-align: right;
+        width: 55%;
+        margin-left: 40%;
+        margin-top: -50px;
+    }
+    .target_5{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-align: left;
+        
+    }
+    .target_5_1{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 80%;
+        text-align: left;
+    }
+    .target_5_2{
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 80%;
+        text-align: left;
+    }
+    .napr5_girl{
+        width: 0px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+}
+@media (min-width: 1024px) {
+    .information_programm5{
+        width: 900px;
+        height: 650px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+    .napr5_logo{
+        width: 200px;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .programm5_name{
+        width: 500px;
+        margin: 0;
+        margin-left: 250px;
+        margin-top: -150px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .programm5_number{
+        width: 500px;
+    margin-left: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    
+    }
+    .line5{
+        width: 550px;
+        margin-left: 250px;
+    }
+    .time51{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time52{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .time_5{
+        margin-left: 30px;
+        margin-top: 40px;
+        width: 250px;
+    }
+    .n5_i{
+        width: 50px;
+        height: 3px;
+    }
+    .n5_g{
+        width: 50px;
+        height: 3px;  
+    }
+    .napr5_idea{
+        margin-left: 300px;
+        margin-top: -80px;
+    }
+    .work_5{
+        margin: 0;
+        color:black;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        width: 350px;
+        margin-left: 450px;
+        margin-top: -70px;
+    }
+    .target_5{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+    .target_5_1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 600px;
+    }
+    .target_5_2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 30px;
+        margin-top: 15px;
+        width: 600px;
+    }
+    .napr5_girl{
+        width: 200px;
+        margin-left: 650px;
+        margin-top: -200px;
+    }
+}

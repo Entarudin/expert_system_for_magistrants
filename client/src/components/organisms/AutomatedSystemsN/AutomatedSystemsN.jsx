@@ -4,10 +4,10 @@ import './AutomatedSystemsN.css';
 const AutomatedSystemsN = () => {
   return (
 <div className="information_programm9">
-  <div className="n9_l"><img src="icons/napr9_logo.png" alt="" className="napr9_logo"/></div>
+  <div className="n9_l"><img src="/icons/napr9_logo.png" alt="" className="napr9_logo"/></div>
              <div className="name_9">
                     <h3 className="programm9_name">Автоматизированные информационные системы</h3>
-                    <div className="n9_s"><img src="icons/napr9_setting.png" alt="" className="napr9_setting"/></div>
+                    <div className="n9_s"><img src="/icons/napr9_setting.png" alt="" className="napr9_setting"/></div>
                     <h3 className="programm9_number">Направление 09.04.03 “Прикладная информатика”</h3>
                      <div className="big_line_9">
                 <hr className="line9"/> 
@@ -19,7 +19,7 @@ const AutomatedSystemsN = () => {
                 <p className="time91">Срок обучения: 2 года</p>
                  <p className="time92">Форма обучения: очная</p>
     </div>
-    <div className="n9_c"><img src="icons/napr9_computer.png" alt="" className="napr9_computer"/></div>    
+    <div className="n9_c"><img src="/icons/napr9_computer.png" alt="" className="napr9_computer"/></div>    
     <div className="target_9">
     Цель магистерской программы:
     </div>
