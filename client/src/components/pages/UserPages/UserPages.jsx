@@ -114,12 +114,14 @@ class UserPages extends React.Component {
                     <Redirect to={`/auth/login`}/>
                 )}
                 <Header />
-                <div className="mainUser">
+                <div className="mainUser_wrapper">
                 
-                    <p className="label_on_userpage">
+                    <div  className="first_div" >
+                        <div>
+                            <p className="label_on_userpage">
                         Обо мне
                     </p>
-                    <div className="user_info"
+                          <div className="user_info"
                    
                     >
                         <div className="img_and_fio" >
@@ -138,64 +140,70 @@ class UserPages extends React.Component {
                   <NavLink to="/users/updatepassword"><button   className="btn_main_pages">Изменить пароль</button></NavLink>
                     
                     <button  onClick={this.logout} className="btn_main_pages">Выйти из системы</button>
-                    </div>
+                    </div> 
+                        </div>
+                        </div>
+                   
+                    {/* 2  */ }
+                                    <div className="second_div">
+                                        <div className="my_result">Мои результаты</div>
+                            
+                                    <div className ="items_on_result" 
+                                
+                                    >
+                                    
+                                        <div 
+                                        className="result_on_scroll"
+                                        style ={{
+                                            overflowY: LenghtOnItemsScroll ? "auto" : "scroll"
+                                        }}
+                                        >
+                
+                                        { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
+                                        resultOnUserPage.map((item,index) =>(
+                                        <div>
+                                        <div  className="block_positioin_result_img"   key={index}>
+                                            
+                                            <img className="img_small" src={"http://127.0.0.1:6969/api/get_img_by_id?img_id="+ item.img}  alt="logo" />
+                                                <div >{Array.isArray(item.resultAnswer) && Boolean( item.resultAnswer.length) && item.resultAnswer.map(itemResultAnswer =>(
+                                                    <div className="item_result_answer_on_result">
+                                                        {itemResultAnswer.lesson_type}: {itemResultAnswer.per_cent}
+
+                                                    </div>
+                                                ))}</div>
+                                            
+
+                                        
+                                        </div>
+                                        <hr></hr>
+                                        </div>
+                                        
+                                    ))
+                                    
+                                    }
+
+                                        </div>
+                                        
+                                    <button onClick={this.testOnEs} className="btn_again"> Пройти тест </button>  
+                            
+                                    </div>
+                                    </div>
+                                 
+                                
+                        
+
+
+                    
+                  
               
                     
                    
-                        <div className="my_result">Мои результаты</div>
-                   
-                        <div className ="items_on_result" 
-                         style={{
-                             height: LenghtOnItemsEmptyScroll ? "auto" : "auto"
-                         }}
-                        >
-                         
-                            <div 
-                            className="result_on_scroll"
-                            style ={{
-                                overflowY: LenghtOnItemsScroll ? "auto" : "scroll"
-                            }}
-                            >
-       
-                               { Array.isArray(resultOnUserPage) && Boolean(resultOnUserPage.length) && 
-                             resultOnUserPage.map((item,index) =>(
-                            <div>
-                            <div  className="block_positioin_result_img"   key={index}>
-                                
-                                 <img className="img_small" src={"http://127.0.0.1:6969/api/get_img_by_id?img_id="+ item.img}  alt="logo" />
-                                    <div >{Array.isArray(item.resultAnswer) && Boolean( item.resultAnswer.length) && item.resultAnswer.map(itemResultAnswer =>(
-                                        <div className="item_result_answer_on_result">
-                                            {itemResultAnswer.lesson_type}: {itemResultAnswer.per_cent}
-
-                                        </div>
-                                    ))}</div>
-                                
-
-                              
-                            </div>
-                            <hr></hr>
-                            </div>
-                               
-                        ))
-                        
-                        }
-
-                            </div>
-                            
-                        <button onClick={this.testOnEs} className="btn_again"> Пройти тест </button>  
-                  
-                        </div>
-                     
-               
+                       
                     
                 </div>
-                <div
-                style={{
-                    marginTop: LenghtOnItemsEmptyScroll ? "10px" : "550px"
-                }}
-                >
+            
                     <Footer /> 
-                </div>
+                
                
             </>
       
