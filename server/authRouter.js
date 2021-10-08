@@ -4,7 +4,6 @@ const controller = require("./authController");
 const {check} = require("express-validator")
 const authMiddleware = require("./middleware/authMidlleware")
 const roleMiddleware = require("./middleware/roleMiddleware")
-//,prevuniversity,speciality,dateofbirth,phonenumber
 router.post("/registration",[
     check("username" , "Неверно введена электронная почта,введите в формате example@proverka.com").isEmail(),
     check('fullname').isLength({min:3}).withMessage('ФИО должно быть больше 3'),

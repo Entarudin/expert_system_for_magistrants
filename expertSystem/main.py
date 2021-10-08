@@ -6,13 +6,13 @@ import os.path
 
 from flask import Flask, g, jsonify, request, make_response
 from flask_cors import CORS
-from expertSystem.app.db import FDataBase
-from expertSystem.app.lesson_start_table import LessonByDBTable
+from app.db import FDataBase
+from app.lesson_start_table import LessonByDBTable
 import sqlite3
 from matplotlib import font_manager
 import matplotlib.pyplot as plt
 
-font_dirs = ['../app/font/']
+font_dirs = ['./app/font/']
 font_files = font_manager.findSystemFonts(fontpaths=font_dirs)
 
 for font_file in font_files:
@@ -23,12 +23,12 @@ plt.rcParams['text.color'] = 'white'
 plt.rcParams['font.family'] = 'Montserrat'
 
 # config
-DATABASE = "../expert.db"
+DATABASE = "./expert.db"
 DEBUG = True
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config.update(dict(DATABASE=os.path.join(app.root_path, '../expert.db')))
+app.config.update(dict(DATABASE=os.path.join(app.root_path, 'expert.db')))
 CORS(app)
 dbase: FDataBase = None
 
@@ -73,7 +73,7 @@ def get_img_by_id():
 
 def create_graph(top_3: list) -> tuple:
     img_id = md5(str('maximus' + str(time())).encode()).hexdigest()
-    filename = f'../app/images/{img_id}.png'
+    filename = f'./app/images/{img_id}.png'
     fig = plt.figure(figsize=(7, 7))
     ax = fig.add_subplot()
     vals = [item['sum'] for item in top_3 if item['sum'] > 0]

@@ -12,12 +12,7 @@ const generationAccessToken =(id,roles) =>{
         roles
     }
     return jwt.sign(paylod,secret,{expiresIn:"24h"} )
-
 }
-
-
-
-
 
 class authController{
     async registration(req,res){
@@ -27,7 +22,6 @@ class authController{
                 return res.status(400).json({message: "Ошибка при регистрации", errors})
             }
             const {username, password,prevuniversity,speciality,dateofbirth,phonenumber,fullname } = req.body;
-            
             const candidate = await User.findOne({username})
             const phonecandidate = await User.findOne({phonenumber})
             if (candidate) {
@@ -45,9 +39,7 @@ class authController{
         } catch(e){
             console.log(e)
             res.status(400).json({message: "Registration error" })
-
         }
-
     }
 
     async login(req,res){
@@ -63,30 +55,23 @@ class authController{
             }
             const token = generationAccessToken(user._id,user.roles,)
             return res.json({token})
-
         } catch(e){
             console.log(e)
             res.status(400).json({message: "Login error" })
-
         }
-
     }
 
     async getUsers(req,res){
         try {
-         const users = await User.find()
-            
+         const users = await User.find()          
             res.json(users)
-        } catch(e){
-            
+        } catch(e){       
         }
-
     }
 
     async getUser(req,res){
         try {
          const user = await User.findById(req.params.id)
-            // prevuniversity,speciality,dateofbirth,phonenumber,
             res.json({username: user.username,fullname:user.fullname, prevuniversity:user.prevuniversity,speciality:user.speciality,dateofbirth:user.dateofbirth, phonenumber:user.phonenumber, roles: user.roles})
         } catch(e){
             console.log(e)
@@ -117,12 +102,10 @@ class authController{
             
             const userUpdateResult = await Result.findOneAndUpdate({idUser},{result:req.body.result},{new:true})
                return res.json(userUpdateResult)
-            }
-          
+            }        
         } catch(e){
            console.log(e) 
         }
-
     }
 
     async getResult(req,res){
@@ -132,19 +115,14 @@ class authController{
                 if(resultTest){
                  return res.json({result:resultTest.result}) 
                 }
-         
-          
         } catch(e){
            console.log(e) 
         }
-
     }
 
     async updateUser(req,res){
         try {
         const {username,id} = req.body;
-        /*username: user.username,fullname:user.fullname, prevuniversity:user.prevuniversity,speciality:user.speciality,dateofbirth:user.dateofbirth, phonenumber:user.phonenumber */
-      
         const userUpdateOnDate = await User.findOneAndUpdate({_id:req.body.id},
             {username:req.body.username, fullname:req.body.fullname, prevuniversity:req.body.prevuniversity,
             speciality:req.body.speciality,dateofbirth:req.body.dateofbirth,phonenumber:req.body.phonenumber
@@ -156,7 +134,6 @@ class authController{
             res.status(400).json({message: "updateUser error" })
         }
     }
-
 
 }
 module.exports = new authController()

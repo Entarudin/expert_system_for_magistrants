@@ -3,7 +3,7 @@ from time import time
 from datetime import datetime
 from colorama import Fore
 from random import shuffle
-from lesson_start_table import LessonByDBTable
+from .lesson_start_table import LessonByDBTable
 
 
 class FDataBase:
